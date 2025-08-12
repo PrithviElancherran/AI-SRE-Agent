@@ -1,0 +1,1022 @@
+[
+  {
+    "incident_id": "INC-792",
+    "timestamp": "2025-05-22T00:37:13.579890",
+    "status": "resolved",
+    "severity": "critical",
+    "symptoms": [
+      "Payment API latency > 5s",
+      "Redis cache hit rate dropped to 40%",
+      "Database connection pool utilization increased",
+      "User complaints about slow payment processing"
+    ],
+    "region": "us-central1",
+    "service_name": "payment-api",
+    "confidence_score": 0.9266632783729623,
+    "root_cause": "Redis cache cluster failure causing cache misses and database overload",
+    "resolution": "Scaled Redis nodes from 3 to 6, warmed cache with user data, implemented circuit breaker",
+    "resolution_time": "2025-05-22T01:14:13.579890",
+    "mttr_minutes": 35,
+    "affected_users": 1863,
+    "incident_symptoms": [
+      {
+        "symptom_id": "d453b12b-a4a3-4052-9814-81c948255c3e",
+        "symptom_type": "latency",
+        "description": "API response time exceeded 5 seconds",
+        "metric_data": {
+          "metric_name": "loadbalancer/request_latency",
+          "threshold": 5000,
+          "actual_value": 5955.66115090605,
+          "unit": "ms"
+        },
+        "detected_at": "2025-05-22T00:37:13.579890",
+        "severity_score": 0.8516686994670168
+      },
+      {
+        "symptom_id": "f11ade9d-9706-4d9b-a943-0e9cb70b83e9",
+        "symptom_type": "cache_performance",
+        "description": "Redis cache hit rate dropped significantly",
+        "metric_data": {
+          "metric_name": "redis/cache_hit_rate",
+          "threshold": 80,
+          "actual_value": 36.286392056729504,
+          "unit": "percent"
+        },
+        "detected_at": "2025-05-22T00:39:13.579890",
+        "severity_score": 0.8700180047185778
+      }
+    ],
+    "tags": [
+      "cache",
+      "latency",
+      "payment",
+      "redis",
+      "database"
+    ]
+  },
+  {
+    "incident_id": "INC-889",
+    "timestamp": "2025-01-08T00:37:13.579983",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Payment API latency > 5s",
+      "Redis cache hit rate dropped to 40%",
+      "Database connection pool utilization increased",
+      "User complaints about slow payment processing"
+    ],
+    "region": "us-central1",
+    "service_name": "payment-api",
+    "confidence_score": 0.9400474039447277,
+    "root_cause": "Redis cache cluster failure causing cache misses and database overload",
+    "resolution": "Scaled Redis nodes from 3 to 6, warmed cache with user data, implemented circuit breaker",
+    "resolution_time": "2025-01-08T01:10:13.579983",
+    "mttr_minutes": 35,
+    "affected_users": 2574,
+    "incident_symptoms": [
+      {
+        "symptom_id": "eb3bde46-6fd4-4a1c-9e7f-4bb92f401f0a",
+        "symptom_type": "latency",
+        "description": "API response time exceeded 5 seconds",
+        "metric_data": {
+          "metric_name": "loadbalancer/request_latency",
+          "threshold": 5000,
+          "actual_value": 6239.0010801402605,
+          "unit": "ms"
+        },
+        "detected_at": "2025-01-08T00:37:13.579983",
+        "severity_score": 0.8656835840802205
+      },
+      {
+        "symptom_id": "33ab9c43-f6fd-4087-9a32-a09f29c22b63",
+        "symptom_type": "cache_performance",
+        "description": "Redis cache hit rate dropped significantly",
+        "metric_data": {
+          "metric_name": "redis/cache_hit_rate",
+          "threshold": 80,
+          "actual_value": 37.02843400813063,
+          "unit": "percent"
+        },
+        "detected_at": "2025-01-08T00:39:13.579983",
+        "severity_score": 0.8967949960300087
+      }
+    ],
+    "tags": [
+      "cache",
+      "latency",
+      "payment",
+      "redis",
+      "database"
+    ]
+  },
+  {
+    "incident_id": "INC-722",
+    "timestamp": "2025-04-24T00:37:13.580021",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Payment API latency > 5s",
+      "Redis cache hit rate dropped to 40%",
+      "Database connection pool utilization increased",
+      "User complaints about slow payment processing"
+    ],
+    "region": "us-central1",
+    "service_name": "payment-api",
+    "confidence_score": 0.9151644747418873,
+    "root_cause": "Redis cache cluster failure causing cache misses and database overload",
+    "resolution": "Scaled Redis nodes from 3 to 6, warmed cache with user data, implemented circuit breaker",
+    "resolution_time": "2025-04-24T01:21:13.580021",
+    "mttr_minutes": 28,
+    "affected_users": 2159,
+    "incident_symptoms": [
+      {
+        "symptom_id": "8a6ddb41-bbdf-4374-8d4c-4760cda01fc7",
+        "symptom_type": "latency",
+        "description": "API response time exceeded 5 seconds",
+        "metric_data": {
+          "metric_name": "loadbalancer/request_latency",
+          "threshold": 5000,
+          "actual_value": 5417.809134197268,
+          "unit": "ms"
+        },
+        "detected_at": "2025-04-24T00:37:13.580021",
+        "severity_score": 0.8256121026135107
+      },
+      {
+        "symptom_id": "ac981377-a650-447f-9569-feaf760158af",
+        "symptom_type": "cache_performance",
+        "description": "Redis cache hit rate dropped significantly",
+        "metric_data": {
+          "metric_name": "redis/cache_hit_rate",
+          "threshold": 80,
+          "actual_value": 44.487330604212985,
+          "unit": "percent"
+        },
+        "detected_at": "2025-04-24T00:39:13.580021",
+        "severity_score": 0.8660571900294614
+      }
+    ],
+    "tags": [
+      "cache",
+      "latency",
+      "payment",
+      "redis",
+      "database"
+    ]
+  },
+  {
+    "incident_id": "INC-508",
+    "timestamp": "2025-05-08T00:37:13.580055",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Payment API latency > 5s",
+      "Redis cache hit rate dropped to 40%",
+      "Database connection pool utilization increased",
+      "User complaints about slow payment processing"
+    ],
+    "region": "us-central1",
+    "service_name": "payment-api",
+    "confidence_score": 0.875591747630191,
+    "root_cause": "Redis cache cluster failure causing cache misses and database overload",
+    "resolution": "Scaled Redis nodes from 3 to 6, warmed cache with user data, implemented circuit breaker",
+    "resolution_time": "2025-05-08T01:22:13.580055",
+    "mttr_minutes": 27,
+    "affected_users": 1528,
+    "incident_symptoms": [
+      {
+        "symptom_id": "0741404e-5c26-4ab5-b493-93ad416325dd",
+        "symptom_type": "latency",
+        "description": "API response time exceeded 5 seconds",
+        "metric_data": {
+          "metric_name": "loadbalancer/request_latency",
+          "threshold": 5000,
+          "actual_value": 5514.028348539003,
+          "unit": "ms"
+        },
+        "detected_at": "2025-05-08T00:37:13.580055",
+        "severity_score": 0.8987776614583648
+      },
+      {
+        "symptom_id": "a199cc39-823a-48fb-8256-0095e22b1ee8",
+        "symptom_type": "cache_performance",
+        "description": "Redis cache hit rate dropped significantly",
+        "metric_data": {
+          "metric_name": "redis/cache_hit_rate",
+          "threshold": 80,
+          "actual_value": 42.682067622983794,
+          "unit": "percent"
+        },
+        "detected_at": "2025-05-08T00:39:13.580055",
+        "severity_score": 0.9172789391311919
+      }
+    ],
+    "tags": [
+      "cache",
+      "latency",
+      "payment",
+      "redis",
+      "database"
+    ]
+  },
+  {
+    "incident_id": "INC-465",
+    "timestamp": "2025-06-05T00:37:13.580087",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Payment API latency > 5s",
+      "Redis cache hit rate dropped to 40%",
+      "Database connection pool utilization increased",
+      "User complaints about slow payment processing"
+    ],
+    "region": "us-central1",
+    "service_name": "payment-api",
+    "confidence_score": 0.8987592395066213,
+    "root_cause": "Redis cache cluster failure causing cache misses and database overload",
+    "resolution": "Scaled Redis nodes from 3 to 6, warmed cache with user data, implemented circuit breaker",
+    "resolution_time": "2025-06-05T01:06:13.580087",
+    "mttr_minutes": 43,
+    "affected_users": 2645,
+    "incident_symptoms": [
+      {
+        "symptom_id": "f9ce37fd-c3a3-4d4e-b012-54a42f63d046",
+        "symptom_type": "latency",
+        "description": "API response time exceeded 5 seconds",
+        "metric_data": {
+          "metric_name": "loadbalancer/request_latency",
+          "threshold": 5000,
+          "actual_value": 6005.997610264647,
+          "unit": "ms"
+        },
+        "detected_at": "2025-06-05T00:37:13.580087",
+        "severity_score": 0.8264423576527334
+      },
+      {
+        "symptom_id": "f56411bc-d2df-4d4d-b5b2-ef63f76c02e2",
+        "symptom_type": "cache_performance",
+        "description": "Redis cache hit rate dropped significantly",
+        "metric_data": {
+          "metric_name": "redis/cache_hit_rate",
+          "threshold": 80,
+          "actual_value": 38.058706281056,
+          "unit": "percent"
+        },
+        "detected_at": "2025-06-05T00:39:13.580087",
+        "severity_score": 0.8666589306352575
+      }
+    ],
+    "tags": [
+      "cache",
+      "latency",
+      "payment",
+      "redis",
+      "database"
+    ]
+  },
+  {
+    "incident_id": "INC-313",
+    "timestamp": "2025-03-05T00:37:13.580114",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Payment API latency > 5s",
+      "Redis cache hit rate dropped to 40%",
+      "Database connection pool utilization increased",
+      "User complaints about slow payment processing"
+    ],
+    "region": "us-central1",
+    "service_name": "payment-api",
+    "confidence_score": 0.9211628525450231,
+    "root_cause": "Redis cache cluster failure causing cache misses and database overload",
+    "resolution": "Scaled Redis nodes from 3 to 6, warmed cache with user data, implemented circuit breaker",
+    "resolution_time": "2025-03-05T01:08:13.580114",
+    "mttr_minutes": 37,
+    "affected_users": 1701,
+    "incident_symptoms": [
+      {
+        "symptom_id": "ce55477e-4779-479e-bab5-cc8c06bf8f8e",
+        "symptom_type": "latency",
+        "description": "API response time exceeded 5 seconds",
+        "metric_data": {
+          "metric_name": "loadbalancer/request_latency",
+          "threshold": 5000,
+          "actual_value": 6544.349431721796,
+          "unit": "ms"
+        },
+        "detected_at": "2025-03-05T00:37:13.580114",
+        "severity_score": 0.8618494437102849
+      },
+      {
+        "symptom_id": "e9326e68-7407-4bff-906c-f4b47a981c84",
+        "symptom_type": "cache_performance",
+        "description": "Redis cache hit rate dropped significantly",
+        "metric_data": {
+          "metric_name": "redis/cache_hit_rate",
+          "threshold": 80,
+          "actual_value": 37.31069042968416,
+          "unit": "percent"
+        },
+        "detected_at": "2025-03-05T00:39:13.580114",
+        "severity_score": 0.8865222696094205
+      }
+    ],
+    "tags": [
+      "cache",
+      "latency",
+      "payment",
+      "redis",
+      "database"
+    ]
+  },
+  {
+    "incident_id": "INC-884",
+    "timestamp": "2025-03-02T00:37:13.580144",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Payment API latency > 5s",
+      "Redis cache hit rate dropped to 40%",
+      "Database connection pool utilization increased",
+      "User complaints about slow payment processing"
+    ],
+    "region": "us-central1",
+    "service_name": "payment-api",
+    "confidence_score": 0.8717610493940784,
+    "root_cause": "Redis cache cluster failure causing cache misses and database overload",
+    "resolution": "Scaled Redis nodes from 3 to 6, warmed cache with user data, implemented circuit breaker",
+    "resolution_time": "2025-03-02T01:09:13.580144",
+    "mttr_minutes": 37,
+    "affected_users": 1555,
+    "incident_symptoms": [
+      {
+        "symptom_id": "81afbcd0-2c59-4ed1-ba00-ee3d03106776",
+        "symptom_type": "latency",
+        "description": "API response time exceeded 5 seconds",
+        "metric_data": {
+          "metric_name": "loadbalancer/request_latency",
+          "threshold": 5000,
+          "actual_value": 5847.440209025075,
+          "unit": "ms"
+        },
+        "detected_at": "2025-03-02T00:37:13.580144",
+        "severity_score": 0.8948910482408423
+      },
+      {
+        "symptom_id": "9a16e0c0-de3d-4111-a1ac-a315a06ab628",
+        "symptom_type": "cache_performance",
+        "description": "Redis cache hit rate dropped significantly",
+        "metric_data": {
+          "metric_name": "redis/cache_hit_rate",
+          "threshold": 80,
+          "actual_value": 38.51399032212906,
+          "unit": "percent"
+        },
+        "detected_at": "2025-03-02T00:39:13.580144",
+        "severity_score": 0.9479513386426416
+      }
+    ],
+    "tags": [
+      "cache",
+      "latency",
+      "payment",
+      "redis",
+      "database"
+    ]
+  },
+  {
+    "incident_id": "INC-794",
+    "timestamp": "2025-05-12T00:37:13.580171",
+    "status": "resolved",
+    "severity": "critical",
+    "symptoms": [
+      "Payment API latency > 5s",
+      "Redis cache hit rate dropped to 40%",
+      "Database connection pool utilization increased",
+      "User complaints about slow payment processing"
+    ],
+    "region": "us-central1",
+    "service_name": "payment-api",
+    "confidence_score": 0.9056389429036631,
+    "root_cause": "Redis cache cluster failure causing cache misses and database overload",
+    "resolution": "Scaled Redis nodes from 3 to 6, warmed cache with user data, implemented circuit breaker",
+    "resolution_time": "2025-05-12T01:17:13.580171",
+    "mttr_minutes": 45,
+    "affected_users": 1966,
+    "incident_symptoms": [
+      {
+        "symptom_id": "aefe9d93-fd54-48bd-954a-3c6aa973637d",
+        "symptom_type": "latency",
+        "description": "API response time exceeded 5 seconds",
+        "metric_data": {
+          "metric_name": "loadbalancer/request_latency",
+          "threshold": 5000,
+          "actual_value": 6464.985225088142,
+          "unit": "ms"
+        },
+        "detected_at": "2025-05-12T00:37:13.580171",
+        "severity_score": 0.8881477631903918
+      },
+      {
+        "symptom_id": "6f07566a-9348-40f3-907e-fe758447dbd6",
+        "symptom_type": "cache_performance",
+        "description": "Redis cache hit rate dropped significantly",
+        "metric_data": {
+          "metric_name": "redis/cache_hit_rate",
+          "threshold": 80,
+          "actual_value": 41.033834061717585,
+          "unit": "percent"
+        },
+        "detected_at": "2025-05-12T00:39:13.580171",
+        "severity_score": 0.8852962228308906
+      }
+    ],
+    "tags": [
+      "cache",
+      "latency",
+      "payment",
+      "redis",
+      "database"
+    ]
+  },
+  {
+    "incident_id": "INC-849",
+    "timestamp": "2025-05-19T00:37:13.580197",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Database connection timeout errors",
+      "Connection pool exhaustion at 95%",
+      "Long-running bulk update queries",
+      "Application response time > 8s"
+    ],
+    "region": "us-central1",
+    "service_name": "ecommerce-api",
+    "confidence_score": 0.8090731869836508,
+    "root_cause": "Inefficient bulk inventory update query causing connection pool exhaustion",
+    "resolution": "Optimized bulk update query, increased connection pool size, killed long-running query",
+    "resolution_time": "2025-05-19T01:12:13.580197",
+    "mttr_minutes": 41,
+    "affected_users": 1098,
+    "incident_symptoms": [
+      {
+        "symptom_id": "5794f787-8d2e-4e89-8dbe-1df4ebc7cda5",
+        "symptom_type": "connection_timeout",
+        "description": "Database connection pool exhaustion",
+        "metric_data": {
+          "metric_name": "cloudsql/database/connection_count",
+          "threshold": 80,
+          "actual_value": 95.75277949397818,
+          "unit": "percent"
+        },
+        "detected_at": "2025-05-19T00:37:13.580197",
+        "severity_score": 0.8725269498903871
+      },
+      {
+        "symptom_id": "7050eec4-6be6-42cd-bfb9-28743825f773",
+        "symptom_type": "query_performance",
+        "description": "Long-running database queries detected",
+        "metric_data": {
+          "metric_name": "cloudsql/database/query_execution_time",
+          "threshold": 1000,
+          "actual_value": 13745.943110251023,
+          "unit": "ms"
+        },
+        "detected_at": "2025-05-19T00:42:13.580197",
+        "severity_score": 0.9172063947056857
+      }
+    ],
+    "tags": [
+      "database",
+      "connection",
+      "timeout",
+      "query",
+      "performance"
+    ]
+  },
+  {
+    "incident_id": "INC-568",
+    "timestamp": "2025-03-24T00:37:13.580228",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Database connection timeout errors",
+      "Connection pool exhaustion at 95%",
+      "Long-running bulk update queries",
+      "Application response time > 8s"
+    ],
+    "region": "us-central1",
+    "service_name": "ecommerce-api",
+    "confidence_score": 0.8752771612770592,
+    "root_cause": "Inefficient bulk inventory update query causing connection pool exhaustion",
+    "resolution": "Optimized bulk update query, increased connection pool size, killed long-running query",
+    "resolution_time": "2025-03-24T01:23:13.580228",
+    "mttr_minutes": 49,
+    "affected_users": 1488,
+    "incident_symptoms": [
+      {
+        "symptom_id": "e3c35c0e-e4af-4db8-a228-01d978364e38",
+        "symptom_type": "connection_timeout",
+        "description": "Database connection pool exhaustion",
+        "metric_data": {
+          "metric_name": "cloudsql/database/connection_count",
+          "threshold": 80,
+          "actual_value": 95.1084459961457,
+          "unit": "percent"
+        },
+        "detected_at": "2025-03-24T00:37:13.580228",
+        "severity_score": 0.8653774103509821
+      },
+      {
+        "symptom_id": "a68de611-9b3c-45c1-88ee-ce6dd34c5737",
+        "symptom_type": "query_performance",
+        "description": "Long-running database queries detected",
+        "metric_data": {
+          "metric_name": "cloudsql/database/query_execution_time",
+          "threshold": 1000,
+          "actual_value": 14081.043296096655,
+          "unit": "ms"
+        },
+        "detected_at": "2025-03-24T00:42:13.580228",
+        "severity_score": 0.9492669943271533
+      }
+    ],
+    "tags": [
+      "database",
+      "connection",
+      "timeout",
+      "query",
+      "performance"
+    ]
+  },
+  {
+    "incident_id": "INC-978",
+    "timestamp": "2025-03-31T00:37:13.580258",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Database connection timeout errors",
+      "Connection pool exhaustion at 95%",
+      "Long-running bulk update queries",
+      "Application response time > 8s"
+    ],
+    "region": "us-central1",
+    "service_name": "ecommerce-api",
+    "confidence_score": 0.9023358315348604,
+    "root_cause": "Inefficient bulk inventory update query causing connection pool exhaustion",
+    "resolution": "Optimized bulk update query, increased connection pool size, killed long-running query",
+    "resolution_time": "2025-03-31T01:30:13.580258",
+    "mttr_minutes": 41,
+    "affected_users": 1236,
+    "incident_symptoms": [
+      {
+        "symptom_id": "9080adc8-6127-498c-8836-8a9128acc0af",
+        "symptom_type": "connection_timeout",
+        "description": "Database connection pool exhaustion",
+        "metric_data": {
+          "metric_name": "cloudsql/database/connection_count",
+          "threshold": 80,
+          "actual_value": 95.26710644922264,
+          "unit": "percent"
+        },
+        "detected_at": "2025-03-31T00:37:13.580258",
+        "severity_score": 0.879828116679514
+      },
+      {
+        "symptom_id": "ab673e2b-2de0-4b14-b847-f1a1aed6034b",
+        "symptom_type": "query_performance",
+        "description": "Long-running database queries detected",
+        "metric_data": {
+          "metric_name": "cloudsql/database/query_execution_time",
+          "threshold": 1000,
+          "actual_value": 13486.237026049412,
+          "unit": "ms"
+        },
+        "detected_at": "2025-03-31T00:42:13.580258",
+        "severity_score": 0.9336948763272345
+      }
+    ],
+    "tags": [
+      "database",
+      "connection",
+      "timeout",
+      "query",
+      "performance"
+    ]
+  },
+  {
+    "incident_id": "INC-894",
+    "timestamp": "2025-03-14T00:37:13.580284",
+    "status": "resolved",
+    "severity": "critical",
+    "symptoms": [
+      "Database connection timeout errors",
+      "Connection pool exhaustion at 95%",
+      "Long-running bulk update queries",
+      "Application response time > 8s"
+    ],
+    "region": "us-central1",
+    "service_name": "ecommerce-api",
+    "confidence_score": 0.8877289772958202,
+    "root_cause": "Inefficient bulk inventory update query causing connection pool exhaustion",
+    "resolution": "Optimized bulk update query, increased connection pool size, killed long-running query",
+    "resolution_time": "2025-03-14T01:20:13.580284",
+    "mttr_minutes": 55,
+    "affected_users": 963,
+    "incident_symptoms": [
+      {
+        "symptom_id": "f238149b-8782-40f5-b092-b94a6e41489e",
+        "symptom_type": "connection_timeout",
+        "description": "Database connection pool exhaustion",
+        "metric_data": {
+          "metric_name": "cloudsql/database/connection_count",
+          "threshold": 80,
+          "actual_value": 95.18240168271905,
+          "unit": "percent"
+        },
+        "detected_at": "2025-03-14T00:37:13.580284",
+        "severity_score": 0.9445655736373414
+      },
+      {
+        "symptom_id": "649ba346-5e7b-4b49-83a0-b81d5f920fe3",
+        "symptom_type": "query_performance",
+        "description": "Long-running database queries detected",
+        "metric_data": {
+          "metric_name": "cloudsql/database/query_execution_time",
+          "threshold": 1000,
+          "actual_value": 13476.697051850932,
+          "unit": "ms"
+        },
+        "detected_at": "2025-03-14T00:42:13.580284",
+        "severity_score": 0.9176161968641354
+      }
+    ],
+    "tags": [
+      "database",
+      "connection",
+      "timeout",
+      "query",
+      "performance"
+    ]
+  },
+  {
+    "incident_id": "INC-182",
+    "timestamp": "2025-06-19T00:37:13.580324",
+    "status": "resolved",
+    "severity": "critical",
+    "symptoms": [
+      "Database connection timeout errors",
+      "Connection pool exhaustion at 95%",
+      "Long-running bulk update queries",
+      "Application response time > 8s"
+    ],
+    "region": "us-central1",
+    "service_name": "ecommerce-api",
+    "confidence_score": 0.8525000836125177,
+    "root_cause": "Inefficient bulk inventory update query causing connection pool exhaustion",
+    "resolution": "Optimized bulk update query, increased connection pool size, killed long-running query",
+    "resolution_time": "2025-06-19T01:12:13.580324",
+    "mttr_minutes": 48,
+    "affected_users": 1218,
+    "incident_symptoms": [
+      {
+        "symptom_id": "2b570a79-ee6c-41ae-82ea-8dc33d7d9017",
+        "symptom_type": "connection_timeout",
+        "description": "Database connection pool exhaustion",
+        "metric_data": {
+          "metric_name": "cloudsql/database/connection_count",
+          "threshold": 80,
+          "actual_value": 95.0087530633684,
+          "unit": "percent"
+        },
+        "detected_at": "2025-06-19T00:37:13.580324",
+        "severity_score": 0.909726771656029
+      },
+      {
+        "symptom_id": "e10938ad-4a29-4808-8977-0b21f5cedb62",
+        "symptom_type": "query_performance",
+        "description": "Long-running database queries detected",
+        "metric_data": {
+          "metric_name": "cloudsql/database/query_execution_time",
+          "threshold": 1000,
+          "actual_value": 12988.049676323259,
+          "unit": "ms"
+        },
+        "detected_at": "2025-06-19T00:42:13.580324",
+        "severity_score": 0.9275886435459053
+      }
+    ],
+    "tags": [
+      "database",
+      "connection",
+      "timeout",
+      "query",
+      "performance"
+    ]
+  },
+  {
+    "incident_id": "INC-150",
+    "timestamp": "2025-05-18T00:37:13.580348",
+    "status": "resolved",
+    "severity": "critical",
+    "symptoms": [
+      "Database connection timeout errors",
+      "Connection pool exhaustion at 95%",
+      "Long-running bulk update queries",
+      "Application response time > 8s"
+    ],
+    "region": "us-central1",
+    "service_name": "ecommerce-api",
+    "confidence_score": 0.8716416939035627,
+    "root_cause": "Inefficient bulk inventory update query causing connection pool exhaustion",
+    "resolution": "Optimized bulk update query, increased connection pool size, killed long-running query",
+    "resolution_time": "2025-05-18T01:17:13.580348",
+    "mttr_minutes": 46,
+    "affected_users": 1525,
+    "incident_symptoms": [
+      {
+        "symptom_id": "1127c6c7-7b94-4f60-b59c-a4ea6be0ba0c",
+        "symptom_type": "connection_timeout",
+        "description": "Database connection pool exhaustion",
+        "metric_data": {
+          "metric_name": "cloudsql/database/connection_count",
+          "threshold": 80,
+          "actual_value": 95.6144012099724,
+          "unit": "percent"
+        },
+        "detected_at": "2025-05-18T00:37:13.580348",
+        "severity_score": 0.8805144012743753
+      },
+      {
+        "symptom_id": "b018e757-ef6e-42a5-90fb-f98a1b15ffb9",
+        "symptom_type": "query_performance",
+        "description": "Long-running database queries detected",
+        "metric_data": {
+          "metric_name": "cloudsql/database/query_execution_time",
+          "threshold": 1000,
+          "actual_value": 14697.810294576757,
+          "unit": "ms"
+        },
+        "detected_at": "2025-05-18T00:42:13.580348",
+        "severity_score": 0.9435540590499693
+      }
+    ],
+    "tags": [
+      "database",
+      "connection",
+      "timeout",
+      "query",
+      "performance"
+    ]
+  },
+  {
+    "incident_id": "INC-268",
+    "timestamp": "2024-07-10T00:37:13.580373",
+    "status": "resolved",
+    "severity": "medium",
+    "symptoms": [
+      "High CPU usage",
+      "Memory exhaustion",
+      "Pod restarts"
+    ],
+    "region": "europe-west1",
+    "service_name": "auth-service",
+    "confidence_score": 0.7865808118624261,
+    "root_cause": "Memory leak in authentication service",
+    "resolution": "Fixed memory leak in authentication service",
+    "resolution_time": "2024-07-10T01:09:13.580373",
+    "mttr_minutes": 51,
+    "affected_users": 728,
+    "incident_symptoms": [],
+    "tags": [
+      "memory",
+      "cpu",
+      "kubernetes"
+    ]
+  },
+  {
+    "incident_id": "INC-820",
+    "timestamp": "2025-06-19T00:37:13.580388",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "High CPU usage",
+      "Memory exhaustion",
+      "Pod restarts"
+    ],
+    "region": "europe-west1",
+    "service_name": "auth-service",
+    "confidence_score": 0.769618164057813,
+    "root_cause": "Memory leak in authentication service",
+    "resolution": "Fixed memory leak in authentication service",
+    "resolution_time": "2025-06-19T02:07:13.580388",
+    "mttr_minutes": 22,
+    "affected_users": 969,
+    "incident_symptoms": [],
+    "tags": [
+      "memory",
+      "cpu",
+      "kubernetes"
+    ]
+  },
+  {
+    "incident_id": "INC-748",
+    "timestamp": "2024-07-22T00:37:13.580404",
+    "status": "resolved",
+    "severity": "low",
+    "symptoms": [
+      "Disk space full",
+      "Log ingestion failures",
+      "Backup failures"
+    ],
+    "region": "us-central1",
+    "service_name": "logging-service",
+    "confidence_score": 0.7387524956261439,
+    "root_cause": "Log rotation configuration missing",
+    "resolution": "Fixed log rotation configuration missing",
+    "resolution_time": "2024-07-22T01:26:13.580404",
+    "mttr_minutes": 80,
+    "affected_users": 528,
+    "incident_symptoms": [],
+    "tags": [
+      "disk",
+      "logs",
+      "storage"
+    ]
+  },
+  {
+    "incident_id": "INC-696",
+    "timestamp": "2025-03-15T00:37:13.580416",
+    "status": "resolved",
+    "severity": "low",
+    "symptoms": [
+      "High CPU usage",
+      "Memory exhaustion",
+      "Pod restarts"
+    ],
+    "region": "us-central1",
+    "service_name": "auth-service",
+    "confidence_score": 0.8338428761375822,
+    "root_cause": "Memory leak in authentication service",
+    "resolution": "Fixed memory leak in authentication service",
+    "resolution_time": "2025-03-15T02:02:13.580416",
+    "mttr_minutes": 87,
+    "affected_users": 710,
+    "incident_symptoms": [],
+    "tags": [
+      "memory",
+      "cpu",
+      "kubernetes"
+    ]
+  },
+  {
+    "incident_id": "INC-544",
+    "timestamp": "2024-08-25T00:37:13.580425",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Disk space full",
+      "Log ingestion failures",
+      "Backup failures"
+    ],
+    "region": "us-central1",
+    "service_name": "logging-service",
+    "confidence_score": 0.8152197612946601,
+    "root_cause": "Log rotation configuration missing",
+    "resolution": "Fixed log rotation configuration missing",
+    "resolution_time": "2024-08-25T01:53:13.580425",
+    "mttr_minutes": 82,
+    "affected_users": 828,
+    "incident_symptoms": [],
+    "tags": [
+      "disk",
+      "logs",
+      "storage"
+    ]
+  },
+  {
+    "incident_id": "INC-820",
+    "timestamp": "2025-03-10T00:37:13.580435",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "500 errors spike",
+      "Load balancer timeouts",
+      "Service mesh issues"
+    ],
+    "region": "us-east1",
+    "service_name": "api-gateway",
+    "confidence_score": 0.8488661867488498,
+    "root_cause": "Service mesh configuration error",
+    "resolution": "Fixed service mesh configuration error",
+    "resolution_time": "2025-03-10T01:38:13.580435",
+    "mttr_minutes": 32,
+    "affected_users": 281,
+    "incident_symptoms": [],
+    "tags": [
+      "errors",
+      "loadbalancer",
+      "servicemesh"
+    ]
+  },
+  {
+    "incident_id": "INC-915",
+    "timestamp": "2024-10-01T00:37:13.580444",
+    "status": "resolved",
+    "severity": "medium",
+    "symptoms": [
+      "Disk space full",
+      "Log ingestion failures",
+      "Backup failures"
+    ],
+    "region": "europe-west1",
+    "service_name": "logging-service",
+    "confidence_score": 0.887469719667383,
+    "root_cause": "Log rotation configuration missing",
+    "resolution": "Fixed log rotation configuration missing",
+    "resolution_time": "2024-10-01T01:14:13.580444",
+    "mttr_minutes": 50,
+    "affected_users": 987,
+    "incident_symptoms": [],
+    "tags": [
+      "disk",
+      "logs",
+      "storage"
+    ]
+  },
+  {
+    "incident_id": "INC-984",
+    "timestamp": "2025-01-23T00:37:13.580452",
+    "status": "resolved",
+    "severity": "medium",
+    "symptoms": [
+      "500 errors spike",
+      "Load balancer timeouts",
+      "Service mesh issues"
+    ],
+    "region": "europe-west1",
+    "service_name": "api-gateway",
+    "confidence_score": 0.7221397661540842,
+    "root_cause": "Service mesh configuration error",
+    "resolution": "Fixed service mesh configuration error",
+    "resolution_time": "2025-01-23T01:36:13.580452",
+    "mttr_minutes": 43,
+    "affected_users": 926,
+    "incident_symptoms": [],
+    "tags": [
+      "errors",
+      "loadbalancer",
+      "servicemesh"
+    ]
+  },
+  {
+    "incident_id": "INC-339",
+    "timestamp": "2024-11-16T00:37:13.580460",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "Disk space full",
+      "Log ingestion failures",
+      "Backup failures"
+    ],
+    "region": "europe-west1",
+    "service_name": "logging-service",
+    "confidence_score": 0.7983594764008088,
+    "root_cause": "Log rotation configuration missing",
+    "resolution": "Fixed log rotation configuration missing",
+    "resolution_time": "2024-11-16T01:00:13.580460",
+    "mttr_minutes": 30,
+    "affected_users": 697,
+    "incident_symptoms": [],
+    "tags": [
+      "disk",
+      "logs",
+      "storage"
+    ]
+  },
+  {
+    "incident_id": "INC-374",
+    "timestamp": "2025-06-09T00:37:13.580469",
+    "status": "resolved",
+    "severity": "high",
+    "symptoms": [
+      "500 errors spike",
+      "Load balancer timeouts",
+      "Service mesh issues"
+    ],
+    "region": "us-east1",
+    "service_name": "api-gateway",
+    "confidence_score": 0.7197896340557934,
+    "root_cause": "Service mesh configuration error",
+    "resolution": "Fixed service mesh configuration error",
+    "resolution_time": "2025-06-09T01:03:13.580469",
+    "mttr_minutes": 60,
+    "affected_users": 703,
+    "incident_symptoms": [],
+    "tags": [
+      "errors",
+      "loadbalancer",
+      "servicemesh"
+    ]
+  }
+]

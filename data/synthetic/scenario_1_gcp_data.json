@@ -1,0 +1,5755 @@
+{
+  "metrics": [
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 96.79806380327086,
+      "timestamp": "2025-07-05T22:34:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92.84974705170829,
+      "timestamp": "2025-07-05T22:35:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95.61514886807548,
+      "timestamp": "2025-07-05T22:36:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95.81933383948511,
+      "timestamp": "2025-07-05T22:37:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.57666598086475,
+      "timestamp": "2025-07-05T22:38:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.67322004365154,
+      "timestamp": "2025-07-05T22:39:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.72104655233585,
+      "timestamp": "2025-07-05T22:40:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92.25514383064306,
+      "timestamp": "2025-07-05T22:41:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.33071365774393,
+      "timestamp": "2025-07-05T22:42:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.91365945829125,
+      "timestamp": "2025-07-05T22:43:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.46406643005842,
+      "timestamp": "2025-07-05T22:44:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.87653298656818,
+      "timestamp": "2025-07-05T22:45:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.85125599090327,
+      "timestamp": "2025-07-05T22:46:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.16740009158406,
+      "timestamp": "2025-07-05T22:47:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95.57806881413113,
+      "timestamp": "2025-07-05T22:48:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.81078124267431,
+      "timestamp": "2025-07-05T22:49:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.93863049230343,
+      "timestamp": "2025-07-05T22:50:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95.80640439932749,
+      "timestamp": "2025-07-05T22:51:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95.33694591337563,
+      "timestamp": "2025-07-05T22:52:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92.62161212915211,
+      "timestamp": "2025-07-05T22:53:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.31682566379737,
+      "timestamp": "2025-07-05T22:54:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95.57995779804097,
+      "timestamp": "2025-07-05T22:55:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 96.84907728324146,
+      "timestamp": "2025-07-05T22:56:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.4428660229587,
+      "timestamp": "2025-07-05T22:57:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.8245197964778,
+      "timestamp": "2025-07-05T22:58:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95.25683459003075,
+      "timestamp": "2025-07-05T22:59:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 96.65267728398508,
+      "timestamp": "2025-07-05T23:00:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95.90902085726476,
+      "timestamp": "2025-07-05T23:01:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92.54762894335522,
+      "timestamp": "2025-07-05T23:02:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.10176775668224,
+      "timestamp": "2025-07-05T23:03:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 38.084489749540644,
+      "timestamp": "2025-07-05T23:04:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 37.045066070629325,
+      "timestamp": "2025-07-05T23:05:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 42.13410984926043,
+      "timestamp": "2025-07-05T23:06:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 35.718103075624924,
+      "timestamp": "2025-07-05T23:07:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 38.649672520225025,
+      "timestamp": "2025-07-05T23:08:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 37.438102438252095,
+      "timestamp": "2025-07-05T23:09:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 41.4411615324487,
+      "timestamp": "2025-07-05T23:10:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 39.339537700504955,
+      "timestamp": "2025-07-05T23:11:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 35.15061380231033,
+      "timestamp": "2025-07-05T23:12:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 39.08407186611707,
+      "timestamp": "2025-07-05T23:13:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 42.48203684408575,
+      "timestamp": "2025-07-05T23:14:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 43.32625286360611,
+      "timestamp": "2025-07-05T23:15:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 40.41445982052428,
+      "timestamp": "2025-07-05T23:16:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 41.77453836174261,
+      "timestamp": "2025-07-05T23:17:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 43.135143033174934,
+      "timestamp": "2025-07-05T23:18:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 37.796921041583616,
+      "timestamp": "2025-07-05T23:19:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 43.18152969348051,
+      "timestamp": "2025-07-05T23:20:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 42.048066140291226,
+      "timestamp": "2025-07-05T23:21:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 43.73758335346286,
+      "timestamp": "2025-07-05T23:22:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 39.04714932771653,
+      "timestamp": "2025-07-05T23:23:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 38.840684577785545,
+      "timestamp": "2025-07-05T23:24:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 44.48109150242476,
+      "timestamp": "2025-07-05T23:25:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 38.2374019694211,
+      "timestamp": "2025-07-05T23:26:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 42.69559432412774,
+      "timestamp": "2025-07-05T23:27:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 41.526705064711706,
+      "timestamp": "2025-07-05T23:28:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 41.31061896351041,
+      "timestamp": "2025-07-05T23:29:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 35.257363859407285,
+      "timestamp": "2025-07-05T23:30:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 44.63602724149229,
+      "timestamp": "2025-07-05T23:31:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 37.185774847396836,
+      "timestamp": "2025-07-05T23:32:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 37.420551164821696,
+      "timestamp": "2025-07-05T23:33:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 41.48690796949775,
+      "timestamp": "2025-07-05T23:34:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 44.805313914421895,
+      "timestamp": "2025-07-05T23:35:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 42.9276552618223,
+      "timestamp": "2025-07-05T23:36:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 40.92600289109238,
+      "timestamp": "2025-07-05T23:37:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 40.445030582813175,
+      "timestamp": "2025-07-05T23:38:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 44.104505226014034,
+      "timestamp": "2025-07-05T23:39:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 42.29196872966751,
+      "timestamp": "2025-07-05T23:40:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 37.2134822134416,
+      "timestamp": "2025-07-05T23:41:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 41.94449867277328,
+      "timestamp": "2025-07-05T23:42:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 37.39847447485338,
+      "timestamp": "2025-07-05T23:43:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 40.47163247619747,
+      "timestamp": "2025-07-05T23:44:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 42.809196641974,
+      "timestamp": "2025-07-05T23:45:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 40.21594968635462,
+      "timestamp": "2025-07-05T23:46:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 43.606763439125665,
+      "timestamp": "2025-07-05T23:47:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 36.465900482266434,
+      "timestamp": "2025-07-05T23:48:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 38.00670783234814,
+      "timestamp": "2025-07-05T23:49:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 43.095409300454975,
+      "timestamp": "2025-07-05T23:50:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 36.76035889288543,
+      "timestamp": "2025-07-05T23:51:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 41.83252131453951,
+      "timestamp": "2025-07-05T23:52:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 44.16311765445141,
+      "timestamp": "2025-07-05T23:53:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 37.94299155333616,
+      "timestamp": "2025-07-05T23:54:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 40.1736638289675,
+      "timestamp": "2025-07-05T23:55:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 35.548095882747624,
+      "timestamp": "2025-07-05T23:56:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 41.99345188207092,
+      "timestamp": "2025-07-05T23:57:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 44.2436682835274,
+      "timestamp": "2025-07-05T23:58:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 42.12413652086844,
+      "timestamp": "2025-07-05T23:59:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 36.137486614174065,
+      "timestamp": "2025-07-06T00:00:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 44.53472366834088,
+      "timestamp": "2025-07-06T00:01:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 40.14376553430928,
+      "timestamp": "2025-07-06T00:02:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 36.414013320999814,
+      "timestamp": "2025-07-06T00:03:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89.57134962189154,
+      "timestamp": "2025-07-06T00:04:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88.94436820781135,
+      "timestamp": "2025-07-06T00:05:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92.00916450886963,
+      "timestamp": "2025-07-06T00:06:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.49836165261475,
+      "timestamp": "2025-07-06T00:07:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 90.34849677201072,
+      "timestamp": "2025-07-06T00:08:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88.03730734763738,
+      "timestamp": "2025-07-06T00:09:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89.93971833217802,
+      "timestamp": "2025-07-06T00:10:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.93503132461014,
+      "timestamp": "2025-07-06T00:11:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91.18927821033631,
+      "timestamp": "2025-07-06T00:12:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89.04707033951283,
+      "timestamp": "2025-07-06T00:13:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88.99294134001227,
+      "timestamp": "2025-07-06T00:14:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89.43897135308147,
+      "timestamp": "2025-07-06T00:15:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 90.4379708908642,
+      "timestamp": "2025-07-06T00:16:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92.8247737022641,
+      "timestamp": "2025-07-06T00:17:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 90.05549601375344,
+      "timestamp": "2025-07-06T00:18:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91.04439890392214,
+      "timestamp": "2025-07-06T00:19:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.66835866696773,
+      "timestamp": "2025-07-06T00:20:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.55325049526317,
+      "timestamp": "2025-07-06T00:21:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.81999545473737,
+      "timestamp": "2025-07-06T00:22:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.08727183121255,
+      "timestamp": "2025-07-06T00:23:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.53375525724147,
+      "timestamp": "2025-07-06T00:24:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88.95278406116252,
+      "timestamp": "2025-07-06T00:25:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88.43309973016277,
+      "timestamp": "2025-07-06T00:26:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.41012145655031,
+      "timestamp": "2025-07-06T00:27:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88.49401658428823,
+      "timestamp": "2025-07-06T00:28:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94.46686597409261,
+      "timestamp": "2025-07-06T00:29:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91.0800947245796,
+      "timestamp": "2025-07-06T00:30:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.08568139960046,
+      "timestamp": "2025-07-06T00:31:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93.4664697032628,
+      "timestamp": "2025-07-06T00:32:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "redis/cache_hit_rate",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "redis-cache-01",
+        "zone": "us-central1-a",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89.40000289667715,
+      "timestamp": "2025-07-06T00:33:24.052011",
+      "unit": "percent"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 180.14160476335553,
+      "timestamp": "2025-07-05T22:34:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 161.6173175170203,
+      "timestamp": "2025-07-05T22:35:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 184.1879163579863,
+      "timestamp": "2025-07-05T22:36:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 180.3107148464383,
+      "timestamp": "2025-07-05T22:37:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 141.73288686896242,
+      "timestamp": "2025-07-05T22:38:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 185.0291937634476,
+      "timestamp": "2025-07-05T22:39:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 180.0719638740982,
+      "timestamp": "2025-07-05T22:40:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 159.5837647095257,
+      "timestamp": "2025-07-05T22:41:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 130.52783591347003,
+      "timestamp": "2025-07-05T22:42:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 199.72147191491098,
+      "timestamp": "2025-07-05T22:43:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 127.10415977387979,
+      "timestamp": "2025-07-05T22:44:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 121.82977722413878,
+      "timestamp": "2025-07-05T22:45:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 128.17315652335304,
+      "timestamp": "2025-07-05T22:46:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 190.50573113382725,
+      "timestamp": "2025-07-05T22:47:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 163.76164316740503,
+      "timestamp": "2025-07-05T22:48:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 198.80896759088898,
+      "timestamp": "2025-07-05T22:49:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 135.46513528897708,
+      "timestamp": "2025-07-05T22:50:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 121.9776744291554,
+      "timestamp": "2025-07-05T22:51:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 190.5515128140213,
+      "timestamp": "2025-07-05T22:52:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 161.64166712777518,
+      "timestamp": "2025-07-05T22:53:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 134.16873304474703,
+      "timestamp": "2025-07-05T22:54:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 138.19719541039947,
+      "timestamp": "2025-07-05T22:55:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 176.7168169612465,
+      "timestamp": "2025-07-05T22:56:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 141.06175341802572,
+      "timestamp": "2025-07-05T22:57:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 130.88524648743746,
+      "timestamp": "2025-07-05T22:58:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 126.88352332658481,
+      "timestamp": "2025-07-05T22:59:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 136.42774093647392,
+      "timestamp": "2025-07-05T23:00:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 143.74218332285525,
+      "timestamp": "2025-07-05T23:01:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 196.9645787351129,
+      "timestamp": "2025-07-05T23:02:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 165.42574663475085,
+      "timestamp": "2025-07-05T23:03:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4828.49050013037,
+      "timestamp": "2025-07-05T23:04:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5033.3007516055195,
+      "timestamp": "2025-07-05T23:05:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5110.505790401672,
+      "timestamp": "2025-07-05T23:06:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4914.442893962679,
+      "timestamp": "2025-07-05T23:07:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4966.119742428187,
+      "timestamp": "2025-07-05T23:08:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4924.769858967988,
+      "timestamp": "2025-07-05T23:09:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5276.434406281178,
+      "timestamp": "2025-07-05T23:10:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4902.708389935333,
+      "timestamp": "2025-07-05T23:11:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5238.645008256565,
+      "timestamp": "2025-07-05T23:12:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5086.588642007676,
+      "timestamp": "2025-07-05T23:13:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5497.889126535154,
+      "timestamp": "2025-07-05T23:14:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4805.28873244833,
+      "timestamp": "2025-07-05T23:15:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5001.144471529767,
+      "timestamp": "2025-07-05T23:16:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4966.078006588855,
+      "timestamp": "2025-07-05T23:17:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5027.921003129989,
+      "timestamp": "2025-07-05T23:18:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5430.0517982284255,
+      "timestamp": "2025-07-05T23:19:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5461.212291978593,
+      "timestamp": "2025-07-05T23:20:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5233.70300281995,
+      "timestamp": "2025-07-05T23:21:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5152.542832847457,
+      "timestamp": "2025-07-05T23:22:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5162.312520121647,
+      "timestamp": "2025-07-05T23:23:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5229.12118017883,
+      "timestamp": "2025-07-05T23:24:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5091.398933983168,
+      "timestamp": "2025-07-05T23:25:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5298.967546610434,
+      "timestamp": "2025-07-05T23:26:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5480.382903109305,
+      "timestamp": "2025-07-05T23:27:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5364.1790665016415,
+      "timestamp": "2025-07-05T23:28:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5268.519124817843,
+      "timestamp": "2025-07-05T23:29:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5002.270154894632,
+      "timestamp": "2025-07-05T23:30:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5211.7233569764785,
+      "timestamp": "2025-07-05T23:31:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4904.059210293187,
+      "timestamp": "2025-07-05T23:32:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5164.551593865708,
+      "timestamp": "2025-07-05T23:33:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5118.696858905823,
+      "timestamp": "2025-07-05T23:34:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5102.768864021957,
+      "timestamp": "2025-07-05T23:35:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5038.859280224364,
+      "timestamp": "2025-07-05T23:36:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5431.93439018689,
+      "timestamp": "2025-07-05T23:37:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5287.769141265885,
+      "timestamp": "2025-07-05T23:38:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5273.271185947513,
+      "timestamp": "2025-07-05T23:39:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4840.653733775563,
+      "timestamp": "2025-07-05T23:40:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5413.05358933065,
+      "timestamp": "2025-07-05T23:41:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5336.271754364841,
+      "timestamp": "2025-07-05T23:42:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5363.771201896363,
+      "timestamp": "2025-07-05T23:43:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5351.427303274311,
+      "timestamp": "2025-07-05T23:44:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4864.03304125185,
+      "timestamp": "2025-07-05T23:45:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5236.02370561775,
+      "timestamp": "2025-07-05T23:46:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4933.1825853965665,
+      "timestamp": "2025-07-05T23:47:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5150.869634640914,
+      "timestamp": "2025-07-05T23:48:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4906.780122700577,
+      "timestamp": "2025-07-05T23:49:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4838.532835449366,
+      "timestamp": "2025-07-05T23:50:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5324.207381598029,
+      "timestamp": "2025-07-05T23:51:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4955.8580721135695,
+      "timestamp": "2025-07-05T23:52:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4819.675198307212,
+      "timestamp": "2025-07-05T23:53:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5029.534193900037,
+      "timestamp": "2025-07-05T23:54:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5134.467667264779,
+      "timestamp": "2025-07-05T23:55:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5423.750851341381,
+      "timestamp": "2025-07-05T23:56:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5493.0548921341115,
+      "timestamp": "2025-07-05T23:57:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5213.407774313165,
+      "timestamp": "2025-07-05T23:58:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 4957.323500403957,
+      "timestamp": "2025-07-05T23:59:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5182.053226059619,
+      "timestamp": "2025-07-06T00:00:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5209.037693553864,
+      "timestamp": "2025-07-06T00:01:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5241.257986676403,
+      "timestamp": "2025-07-06T00:02:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 5022.7755757918185,
+      "timestamp": "2025-07-06T00:03:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 191.52437414223942,
+      "timestamp": "2025-07-06T00:04:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 174.4975649824596,
+      "timestamp": "2025-07-06T00:05:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 192.79768529105803,
+      "timestamp": "2025-07-06T00:06:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 188.08189920890896,
+      "timestamp": "2025-07-06T00:07:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 165.12627576070855,
+      "timestamp": "2025-07-06T00:08:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 173.68177508796464,
+      "timestamp": "2025-07-06T00:09:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 208.63901667948778,
+      "timestamp": "2025-07-06T00:10:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 185.8232642127021,
+      "timestamp": "2025-07-06T00:11:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 177.72534933686387,
+      "timestamp": "2025-07-06T00:12:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 206.84717158406687,
+      "timestamp": "2025-07-06T00:13:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 159.40413643618191,
+      "timestamp": "2025-07-06T00:14:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 174.3161523636891,
+      "timestamp": "2025-07-06T00:15:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 167.2543372927978,
+      "timestamp": "2025-07-06T00:16:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 192.8266173699579,
+      "timestamp": "2025-07-06T00:17:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 180.24938765075754,
+      "timestamp": "2025-07-06T00:18:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 201.27401590005286,
+      "timestamp": "2025-07-06T00:19:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 143.40399711367047,
+      "timestamp": "2025-07-06T00:20:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 185.12963999087037,
+      "timestamp": "2025-07-06T00:21:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 167.72788523972605,
+      "timestamp": "2025-07-06T00:22:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 212.0597867194283,
+      "timestamp": "2025-07-06T00:23:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 170.4344011800256,
+      "timestamp": "2025-07-06T00:24:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 161.5447390233056,
+      "timestamp": "2025-07-06T00:25:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 217.82319998600752,
+      "timestamp": "2025-07-06T00:26:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 191.40663927617655,
+      "timestamp": "2025-07-06T00:27:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 163.39696542861776,
+      "timestamp": "2025-07-06T00:28:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 171.40017620776302,
+      "timestamp": "2025-07-06T00:29:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 147.93924926345568,
+      "timestamp": "2025-07-06T00:30:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 209.49386620779438,
+      "timestamp": "2025-07-06T00:31:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 194.49482796184108,
+      "timestamp": "2025-07-06T00:32:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "loadbalancer/request_latency",
+      "resource_type": "gce_instance",
+      "labels": {
+        "service_name": "payment-api",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 217.3494056267714,
+      "timestamp": "2025-07-06T00:33:24.052011",
+      "unit": "ms"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 64,
+      "timestamp": "2025-07-05T22:34:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 54,
+      "timestamp": "2025-07-05T22:35:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 58,
+      "timestamp": "2025-07-05T22:36:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 45,
+      "timestamp": "2025-07-05T22:37:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 55,
+      "timestamp": "2025-07-05T22:38:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 55,
+      "timestamp": "2025-07-05T22:39:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 65,
+      "timestamp": "2025-07-05T22:40:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 50,
+      "timestamp": "2025-07-05T22:41:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 46,
+      "timestamp": "2025-07-05T22:42:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 57,
+      "timestamp": "2025-07-05T22:43:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 52,
+      "timestamp": "2025-07-05T22:44:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 46,
+      "timestamp": "2025-07-05T22:45:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 64,
+      "timestamp": "2025-07-05T22:46:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 46,
+      "timestamp": "2025-07-05T22:47:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 52,
+      "timestamp": "2025-07-05T22:48:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 58,
+      "timestamp": "2025-07-05T22:49:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 54,
+      "timestamp": "2025-07-05T22:50:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 58,
+      "timestamp": "2025-07-05T22:51:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 63,
+      "timestamp": "2025-07-05T22:52:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 46,
+      "timestamp": "2025-07-05T22:53:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 63,
+      "timestamp": "2025-07-05T22:54:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 62,
+      "timestamp": "2025-07-05T22:55:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 51,
+      "timestamp": "2025-07-05T22:56:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 56,
+      "timestamp": "2025-07-05T22:57:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 49,
+      "timestamp": "2025-07-05T22:58:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 58,
+      "timestamp": "2025-07-05T22:59:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 56,
+      "timestamp": "2025-07-05T23:00:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 64,
+      "timestamp": "2025-07-05T23:01:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 65,
+      "timestamp": "2025-07-05T23:02:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 64,
+      "timestamp": "2025-07-05T23:03:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89,
+      "timestamp": "2025-07-05T23:04:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93,
+      "timestamp": "2025-07-05T23:05:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92,
+      "timestamp": "2025-07-05T23:06:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93,
+      "timestamp": "2025-07-05T23:07:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88,
+      "timestamp": "2025-07-05T23:08:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 87,
+      "timestamp": "2025-07-05T23:09:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89,
+      "timestamp": "2025-07-05T23:10:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92,
+      "timestamp": "2025-07-05T23:11:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89,
+      "timestamp": "2025-07-05T23:12:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93,
+      "timestamp": "2025-07-05T23:13:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95,
+      "timestamp": "2025-07-05T23:14:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 85,
+      "timestamp": "2025-07-05T23:15:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88,
+      "timestamp": "2025-07-05T23:16:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93,
+      "timestamp": "2025-07-05T23:17:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91,
+      "timestamp": "2025-07-05T23:18:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95,
+      "timestamp": "2025-07-05T23:19:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95,
+      "timestamp": "2025-07-05T23:20:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92,
+      "timestamp": "2025-07-05T23:21:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 86,
+      "timestamp": "2025-07-05T23:22:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 87,
+      "timestamp": "2025-07-05T23:23:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 86,
+      "timestamp": "2025-07-05T23:24:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89,
+      "timestamp": "2025-07-05T23:25:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95,
+      "timestamp": "2025-07-05T23:26:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 85,
+      "timestamp": "2025-07-05T23:27:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94,
+      "timestamp": "2025-07-05T23:28:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91,
+      "timestamp": "2025-07-05T23:29:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91,
+      "timestamp": "2025-07-05T23:30:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89,
+      "timestamp": "2025-07-05T23:31:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92,
+      "timestamp": "2025-07-05T23:32:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 85,
+      "timestamp": "2025-07-05T23:33:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 85,
+      "timestamp": "2025-07-05T23:34:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 95,
+      "timestamp": "2025-07-05T23:35:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92,
+      "timestamp": "2025-07-05T23:36:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89,
+      "timestamp": "2025-07-05T23:37:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 90,
+      "timestamp": "2025-07-05T23:38:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92,
+      "timestamp": "2025-07-05T23:39:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91,
+      "timestamp": "2025-07-05T23:40:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88,
+      "timestamp": "2025-07-05T23:41:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88,
+      "timestamp": "2025-07-05T23:42:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88,
+      "timestamp": "2025-07-05T23:43:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 89,
+      "timestamp": "2025-07-05T23:44:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 86,
+      "timestamp": "2025-07-05T23:45:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94,
+      "timestamp": "2025-07-05T23:46:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 86,
+      "timestamp": "2025-07-05T23:47:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88,
+      "timestamp": "2025-07-05T23:48:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88,
+      "timestamp": "2025-07-05T23:49:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 88,
+      "timestamp": "2025-07-05T23:50:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 86,
+      "timestamp": "2025-07-05T23:51:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 86,
+      "timestamp": "2025-07-05T23:52:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 86,
+      "timestamp": "2025-07-05T23:53:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 86,
+      "timestamp": "2025-07-05T23:54:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91,
+      "timestamp": "2025-07-05T23:55:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 87,
+      "timestamp": "2025-07-05T23:56:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 87,
+      "timestamp": "2025-07-05T23:57:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 85,
+      "timestamp": "2025-07-05T23:58:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94,
+      "timestamp": "2025-07-05T23:59:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 93,
+      "timestamp": "2025-07-06T00:00:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 94,
+      "timestamp": "2025-07-06T00:01:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 91,
+      "timestamp": "2025-07-06T00:02:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 92,
+      "timestamp": "2025-07-06T00:03:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 66,
+      "timestamp": "2025-07-06T00:04:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 48,
+      "timestamp": "2025-07-06T00:05:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 68,
+      "timestamp": "2025-07-06T00:06:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 49,
+      "timestamp": "2025-07-06T00:07:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 60,
+      "timestamp": "2025-07-06T00:08:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 62,
+      "timestamp": "2025-07-06T00:09:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 66,
+      "timestamp": "2025-07-06T00:10:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 56,
+      "timestamp": "2025-07-06T00:11:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 63,
+      "timestamp": "2025-07-06T00:12:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 60,
+      "timestamp": "2025-07-06T00:13:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 66,
+      "timestamp": "2025-07-06T00:14:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 66,
+      "timestamp": "2025-07-06T00:15:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 48,
+      "timestamp": "2025-07-06T00:16:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 57,
+      "timestamp": "2025-07-06T00:17:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 50,
+      "timestamp": "2025-07-06T00:18:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 63,
+      "timestamp": "2025-07-06T00:19:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 49,
+      "timestamp": "2025-07-06T00:20:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 59,
+      "timestamp": "2025-07-06T00:21:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 55,
+      "timestamp": "2025-07-06T00:22:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 48,
+      "timestamp": "2025-07-06T00:23:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 49,
+      "timestamp": "2025-07-06T00:24:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 67,
+      "timestamp": "2025-07-06T00:25:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 66,
+      "timestamp": "2025-07-06T00:26:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 51,
+      "timestamp": "2025-07-06T00:27:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 62,
+      "timestamp": "2025-07-06T00:28:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 57,
+      "timestamp": "2025-07-06T00:29:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 66,
+      "timestamp": "2025-07-06T00:30:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 64,
+      "timestamp": "2025-07-06T00:31:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 68,
+      "timestamp": "2025-07-06T00:32:24.052011",
+      "unit": "count"
+    },
+    {
+      "metric_name": "cloudsql/database/connection_count",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1",
+        "project_id": "payment-api-prod"
+      },
+      "value": 53,
+      "timestamp": "2025-07-06T00:33:24.052011",
+      "unit": "count"
+    }
+  ],
+  "logs": [
+    {
+      "log_id": "b9eceef3-f792-4bdb-a046-d06fb62007e9",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_4710",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5666",
+        "cache_hit": false,
+        "fallback_db_query_time": 1882.014228140652
+      },
+      "timestamp": "2025-07-05T23:28:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "678ddc13-2c6c-4ed9-be7c-7a3aab23ce42",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_2938",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5221",
+        "cache_hit": false,
+        "fallback_db_query_time": 1220.2514665341657
+      },
+      "timestamp": "2025-07-06T00:02:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "19b2fb65-9491-4059-ad95-4c6cb21e1414",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_7654",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_1170",
+        "cache_hit": false,
+        "fallback_db_query_time": 1244.5951689798135
+      },
+      "timestamp": "2025-07-05T23:37:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "5214b3c6-d545-401c-b464-f6b1e560e796",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_3025",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5059",
+        "cache_hit": false,
+        "fallback_db_query_time": 1496.7786591421204
+      },
+      "timestamp": "2025-07-05T23:28:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "30d021c4-8e35-498c-98a7-0bdec99ef63c",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_1026",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_8021",
+        "cache_hit": false,
+        "fallback_db_query_time": 2001.2682248012052
+      },
+      "timestamp": "2025-07-05T23:10:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "2414f470-7d5f-45e6-b5a5-77c81f74bcb6",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_9832",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5902",
+        "cache_hit": false,
+        "fallback_db_query_time": 1263.7196550889446
+      },
+      "timestamp": "2025-07-05T23:38:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "b89c4d59-71c2-4f79-ae61-61be67f9138c",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_7603",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5700",
+        "cache_hit": false,
+        "fallback_db_query_time": 1837.631892734938
+      },
+      "timestamp": "2025-07-05T23:52:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "be858d93-74b0-43f4-b86e-9c2f5b5c917b",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_2526",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5795",
+        "cache_hit": false,
+        "fallback_db_query_time": 2111.281297571415
+      },
+      "timestamp": "2025-07-05T23:12:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "55dec73d-d22d-436c-9059-957370860a5d",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_9297",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_9169",
+        "cache_hit": false,
+        "fallback_db_query_time": 1722.3244144825414
+      },
+      "timestamp": "2025-07-05T23:25:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "f885d3a1-35f3-44c2-8e61-9821cb82ff91",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_2335",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_4258",
+        "cache_hit": false,
+        "fallback_db_query_time": 2197.5703640416177
+      },
+      "timestamp": "2025-07-05T23:15:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "7c408252-a6c6-4ab1-aad4-762ed411c1c0",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_9139",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_2610",
+        "cache_hit": false,
+        "fallback_db_query_time": 1759.5196719347891
+      },
+      "timestamp": "2025-07-05T23:52:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "12a96dea-0ca3-4902-80af-5d683f4df8a3",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_3495",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_4091",
+        "cache_hit": false,
+        "fallback_db_query_time": 1351.6966568217313
+      },
+      "timestamp": "2025-07-05T23:29:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "0c46d595-892d-4c83-8326-06f3197e4a86",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_3132",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_6986",
+        "cache_hit": false,
+        "fallback_db_query_time": 1211.4056850815073
+      },
+      "timestamp": "2025-07-05T23:51:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "326fd928-5839-4dfa-9442-01042b0588d6",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_9569",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_7979",
+        "cache_hit": false,
+        "fallback_db_query_time": 1705.391802746739
+      },
+      "timestamp": "2025-07-05T23:32:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "2944af7d-292d-4292-b952-edf3b8c948f9",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_4697",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_8488",
+        "cache_hit": false,
+        "fallback_db_query_time": 2013.1221015877484
+      },
+      "timestamp": "2025-07-05T23:49:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "0326bd96-300d-459f-94db-3d1b46a41d51",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_7346",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5476",
+        "cache_hit": false,
+        "fallback_db_query_time": 2014.7178056381772
+      },
+      "timestamp": "2025-07-05T23:47:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "f544657d-1b3a-4996-9d5f-ff98c87508cd",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_3335",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5042",
+        "cache_hit": false,
+        "fallback_db_query_time": 1727.1621273880373
+      },
+      "timestamp": "2025-07-05T23:48:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "e110d221-fae2-49d2-9442-55346411e944",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_3142",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_2817",
+        "cache_hit": false,
+        "fallback_db_query_time": 1397.991154446815
+      },
+      "timestamp": "2025-07-05T23:21:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "80b778d2-bdd5-428c-a02e-8d5b48f67d86",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_8620",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_7726",
+        "cache_hit": false,
+        "fallback_db_query_time": 1354.389666379631
+      },
+      "timestamp": "2025-07-05T23:40:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "b5c0c9e1-9266-453d-ad7f-0d374c461e82",
+      "severity": "WARNING",
+      "message": "Cache miss for user_data key: user_8617",
+      "json_payload": {
+        "service": "payment-api",
+        "cache_key": "user_5211",
+        "cache_hit": false,
+        "fallback_db_query_time": 1899.8581176065773
+      },
+      "timestamp": "2025-07-05T23:15:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "0882dd6d-7582-4859-840b-40a91096b66d",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 85
+      },
+      "timestamp": "2025-07-05T23:46:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "fcd14423-5730-4dec-b9b7-ddeae9fffa37",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 86
+      },
+      "timestamp": "2025-07-06T00:03:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "d061c989-4897-4994-b57f-416cbeb51e44",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 92
+      },
+      "timestamp": "2025-07-05T23:04:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "7e4f13c2-525f-454d-bca0-7522e06127fe",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 88
+      },
+      "timestamp": "2025-07-05T23:04:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "c9670afb-dbcd-44e8-b87e-7502969c1814",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 93
+      },
+      "timestamp": "2025-07-05T23:26:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "d013f481-411b-4223-ac53-f94b7e7348c0",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 94
+      },
+      "timestamp": "2025-07-05T23:14:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "2fa26d01-aa56-489f-8821-a3bd25967a6f",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 90
+      },
+      "timestamp": "2025-07-05T23:52:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "6ece87ac-e34a-4cf9-9a42-47af0ae56d7c",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 89
+      },
+      "timestamp": "2025-07-05T23:42:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "01a45e09-63a1-45d9-a727-de56a596b4dd",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 95
+      },
+      "timestamp": "2025-07-05T23:21:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "b9f51360-327c-4859-a5f2-40bd24970c42",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 95
+      },
+      "timestamp": "2025-07-05T23:42:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "e30bb6bf-1006-40de-8419-84d7f2dd3cd0",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 89
+      },
+      "timestamp": "2025-07-05T23:56:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "e90cdf52-6059-45dd-b1d4-8220e07f7400",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 93
+      },
+      "timestamp": "2025-07-05T23:22:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "e0d9f930-58a1-457e-98d3-8e510c5659c9",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 95
+      },
+      "timestamp": "2025-07-05T23:08:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "462cb2ee-d1a4-4e64-a04a-bafbff177d6b",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 88
+      },
+      "timestamp": "2025-07-06T00:01:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "ff9285e5-59a4-418a-8d6e-5908b217e941",
+      "severity": "ERROR",
+      "message": "Database query timeout after 30s for user lookup",
+      "json_payload": {
+        "service": "payment-api",
+        "query": "SELECT * FROM users WHERE user_id = ?",
+        "timeout_seconds": 30,
+        "connection_pool_size": 85
+      },
+      "timestamp": "2025-07-05T23:31:24.052011",
+      "resource_type": "cloudsql_database",
+      "labels": {
+        "database_id": "payment-db-prod",
+        "region": "us-central1"
+      }
+    },
+    {
+      "log_id": "1b50d7cd-9b49-473a-96fb-594380afe69e",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 9794",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 8097,
+        "response_time_ms": 7899.182777546899,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:17:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "a7bca2a4-7d9d-472d-a3a6-22e41b0b0537",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 5985",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 4745,
+        "response_time_ms": 5858.695122736742,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:09:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "fceb5cd2-9055-4c95-b1a8-d5ed0990b46c",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 5153",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 4119,
+        "response_time_ms": 7736.428989819173,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:32:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "bac1ec41-8aaa-4f1d-8b23-b71ff7a640b2",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 6907",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 5844,
+        "response_time_ms": 5893.003568836935,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-06T00:04:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "764dc3df-4840-4105-85c5-15a871efed53",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 9609",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 8864,
+        "response_time_ms": 5246.636554766508,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:47:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "3900498f-148f-4575-8b34-874ed1fb9528",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 1794",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 9267,
+        "response_time_ms": 6097.985631920072,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:32:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "1d531f0a-5045-4279-932e-fa01c88d0e7b",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 2489",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 2543,
+        "response_time_ms": 7140.470425934776,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:22:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "f1207640-891e-46e5-902f-d948ae02baa3",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 9554",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 7124,
+        "response_time_ms": 5107.7259339621205,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-06T00:02:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "d22f127a-865d-41cf-aae4-ca3e97b48abb",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 5214",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 5419,
+        "response_time_ms": 5766.757126877204,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:28:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "747dd4ce-b95e-4c5c-b0ae-cad2132c14f7",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 1019",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 4549,
+        "response_time_ms": 7188.6480039951675,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:13:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "7fdfb44b-81e2-40b5-894a-2c5fe88cb4d3",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 6955",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 4100,
+        "response_time_ms": 5896.527931946765,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:05:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "aa42ffc1-954b-428f-8663-c793467f4fa4",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 9226",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 6591,
+        "response_time_ms": 5603.255713820386,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:49:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "e7029467-b0fe-45a4-9d55-0d2376201844",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 4979",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 4101,
+        "response_time_ms": 5237.052460723785,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:17:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "0991eaf5-7ccd-4e99-8dfe-3ce772324d0c",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 8635",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 2725,
+        "response_time_ms": 5738.333054003693,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:08:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    },
+    {
+      "log_id": "f34aab60-1e6d-4109-a82e-679b33ba3e2c",
+      "severity": "ERROR",
+      "message": "Payment API request timeout - user_id: 7005",
+      "json_payload": {
+        "service": "payment-api",
+        "endpoint": "/api/v1/payments/process",
+        "user_id": 9038,
+        "response_time_ms": 6034.073128695114,
+        "timeout_threshold_ms": 5000
+      },
+      "timestamp": "2025-07-05T23:56:24.052011",
+      "resource_type": "gce_instance",
+      "labels": {
+        "instance_id": "payment-api-instance-01",
+        "zone": "us-central1-a"
+      }
+    }
+  ],
+  "errors": [
+    {
+      "error_id": "676f546e-1af3-4314-92a4-8b1b4cd31bbe",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 27,
+      "first_seen": "2025-07-05T23:57:24.052011",
+      "last_seen": "2025-07-06T00:27:24.052011",
+      "affected_users": 169
+    },
+    {
+      "error_id": "a7b8efef-e85f-4529-8f97-a5a8e55114c7",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 35,
+      "first_seen": "2025-07-05T23:24:24.052011",
+      "last_seen": "2025-07-05T23:54:24.052011",
+      "affected_users": 171
+    },
+    {
+      "error_id": "7a26cee3-ce7e-4ded-86d5-a507b5180b28",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 27,
+      "first_seen": "2025-07-05T23:08:24.052011",
+      "last_seen": "2025-07-05T23:38:24.052011",
+      "affected_users": 159
+    },
+    {
+      "error_id": "da2d047f-754d-48c6-a62d-c1f9a8f125e7",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 40,
+      "first_seen": "2025-07-05T23:12:24.052011",
+      "last_seen": "2025-07-05T23:42:24.052011",
+      "affected_users": 259
+    },
+    {
+      "error_id": "41c5ccb7-db1a-4b1e-94b5-e18578e2512a",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 34,
+      "first_seen": "2025-07-05T23:47:24.052011",
+      "last_seen": "2025-07-06T00:17:24.052011",
+      "affected_users": 239
+    },
+    {
+      "error_id": "da2eb88d-ebb2-4722-afc3-e257ced3a360",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 37,
+      "first_seen": "2025-07-05T23:30:24.052011",
+      "last_seen": "2025-07-06T00:00:24.052011",
+      "affected_users": 193
+    },
+    {
+      "error_id": "4096e184-c448-43a7-8148-8964e6076573",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 40,
+      "first_seen": "2025-07-05T23:32:24.052011",
+      "last_seen": "2025-07-06T00:02:24.052011",
+      "affected_users": 241
+    },
+    {
+      "error_id": "40bdf777-e7f6-4be4-ad8d-03c31a90e9ff",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 31,
+      "first_seen": "2025-07-05T23:27:24.052011",
+      "last_seen": "2025-07-05T23:57:24.052011",
+      "affected_users": 215
+    },
+    {
+      "error_id": "26473d5e-75c7-4357-8ef5-ff2a00ac3e4e",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 29,
+      "first_seen": "2025-07-05T23:48:24.052011",
+      "last_seen": "2025-07-06T00:18:24.052011",
+      "affected_users": 212
+    },
+    {
+      "error_id": "c9fef2fa-4a2c-4fbf-80e1-8f71a4f7cbb7",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 44,
+      "first_seen": "2025-07-05T23:52:24.052011",
+      "last_seen": "2025-07-06T00:22:24.052011",
+      "affected_users": 280
+    },
+    {
+      "error_id": "974d8a89-e846-43e3-9ea8-724e0ef0e967",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 37,
+      "first_seen": "2025-07-05T23:46:24.052011",
+      "last_seen": "2025-07-06T00:16:24.052011",
+      "affected_users": 158
+    },
+    {
+      "error_id": "b2f7d2d3-4c17-4a6c-975c-550d3c555416",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 43,
+      "first_seen": "2025-07-06T00:04:24.052011",
+      "last_seen": "2025-07-06T00:34:24.052011",
+      "affected_users": 254
+    },
+    {
+      "error_id": "80dad3d8-f00d-4ba1-afcd-027e188bbe09",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 35,
+      "first_seen": "2025-07-05T23:22:24.052011",
+      "last_seen": "2025-07-05T23:52:24.052011",
+      "affected_users": 300
+    },
+    {
+      "error_id": "526e6a6d-5baa-4569-b3ef-367fc83da503",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 28,
+      "first_seen": "2025-07-05T23:42:24.052011",
+      "last_seen": "2025-07-06T00:12:24.052011",
+      "affected_users": 235
+    },
+    {
+      "error_id": "860a1a7f-9127-4f24-ae26-db13fbdb3754",
+      "service_name": "payment-api",
+      "error_message": "RedisConnectionError: Connection to Redis server failed",
+      "stack_trace": "\nTraceback (most recent call last):\n  File \"/app/payment_service.py\", line 45, in get_user_data\n    user_data = redis_client.get(f\"user_{user_id}\")\n  File \"/usr/local/lib/python3.9/site-packages/redis/client.py\", line 1265, in get\n    return self.execute_command('GET', name)\nredis.exceptions.ConnectionError: Connection to Redis server failed\n            ",
+      "error_count": 36,
+      "first_seen": "2025-07-05T23:31:24.052011",
+      "last_seen": "2025-07-06T00:01:24.052011",
+      "affected_users": 287
+    }
+  ],
+  "traces": [
+    {
+      "trace_id": "911f07c5-6e2a-4c8a-8b6f-bf7cd2fa20d9",
+      "spans": [
+        {
+          "span_id": "ded4581f-984e-41e4-9d56-e12d5d749b30",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:07:24.052011",
+          "duration_ms": 6045.920592226876,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "ca7c9029-8589-460c-a367-a41706546e25",
+          "parent_span_id": "911f07c5-6e2a-4c8a-8b6f-bf7cd2fa20d9",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:07:24.102011",
+          "duration_ms": 4360.744488366426,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_5914",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "34669bd8-8daf-4e50-be48-b376e60f249d",
+          "parent_span_id": "911f07c5-6e2a-4c8a-8b6f-bf7cd2fa20d9",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:07:24.152011",
+          "duration_ms": 4968.5945134852955,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 92,
+            "db.wait_time_ms": 2994.708766073431
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "804ef41a-dfc2-4fb7-b3a8-3d880cf3d2d4",
+      "spans": [
+        {
+          "span_id": "2ad9c188-7752-4767-9e67-4e74fe652557",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:34:24.052011",
+          "duration_ms": 6788.278595176979,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "428f5d9f-1194-407e-ab86-0e8bd65b8a1a",
+          "parent_span_id": "804ef41a-dfc2-4fb7-b3a8-3d880cf3d2d4",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:34:24.102011",
+          "duration_ms": 4542.903651873014,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_9686",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "71e820d8-f5da-4661-bb41-a2c553531e27",
+          "parent_span_id": "804ef41a-dfc2-4fb7-b3a8-3d880cf3d2d4",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:34:24.152011",
+          "duration_ms": 4501.232855581731,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 87,
+            "db.wait_time_ms": 2170.2186600945447
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "b2e8cac2-178a-4d43-9e0b-1a7a7c4f3e29",
+      "spans": [
+        {
+          "span_id": "b67e47dd-215f-443c-b43b-2e87d61c6986",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:26:24.052011",
+          "duration_ms": 5802.1516593213755,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "d892b971-d1bd-4c51-a534-368ad2d7544d",
+          "parent_span_id": "b2e8cac2-178a-4d43-9e0b-1a7a7c4f3e29",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:26:24.102011",
+          "duration_ms": 4912.830670326957,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_5315",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "a54fa407-c9e5-4a6f-b483-97e0c5e922e6",
+          "parent_span_id": "b2e8cac2-178a-4d43-9e0b-1a7a7c4f3e29",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:26:24.152011",
+          "duration_ms": 4030.335171528788,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 91,
+            "db.wait_time_ms": 2200.7799907871795
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "74ef9a4b-9473-4033-ae0f-ad503b73793b",
+      "spans": [
+        {
+          "span_id": "ee07fc90-cc74-4cfd-a634-19bd585082e4",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:51:24.052011",
+          "duration_ms": 5521.117960388446,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "ae210e55-97f9-4869-b8bf-b9c3e5975ab9",
+          "parent_span_id": "74ef9a4b-9473-4033-ae0f-ad503b73793b",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:51:24.102011",
+          "duration_ms": 4959.5967853327775,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_9779",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "d27a995b-fbb3-49ea-98a9-a68c77055885",
+          "parent_span_id": "74ef9a4b-9473-4033-ae0f-ad503b73793b",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:51:24.152011",
+          "duration_ms": 4258.885925951901,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 90,
+            "db.wait_time_ms": 2244.2570428310078
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "531d9311-68fb-4899-aaf4-cebeb71edb6d",
+      "spans": [
+        {
+          "span_id": "a729323f-255e-4067-ad7a-98d8226d25d0",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:19:24.052011",
+          "duration_ms": 5897.702981845374,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "6424f472-3ba5-411e-9c49-b1a9a39ce9b8",
+          "parent_span_id": "531d9311-68fb-4899-aaf4-cebeb71edb6d",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:19:24.102011",
+          "duration_ms": 5023.418717064941,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_7926",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "db154818-ed78-4caf-b4fd-3a76b0f2d18a",
+          "parent_span_id": "531d9311-68fb-4899-aaf4-cebeb71edb6d",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:19:24.152011",
+          "duration_ms": 4456.830368027182,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 94,
+            "db.wait_time_ms": 2273.1815295838837
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "85ecbea2-ef5a-44b2-9fd6-1116b3b59540",
+      "spans": [
+        {
+          "span_id": "0a1fac97-e0fd-4c52-9460-60cec0131aa2",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:38:24.052011",
+          "duration_ms": 6077.564692347648,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "6df6fa89-8e46-44f8-b297-9d27e4c30ddd",
+          "parent_span_id": "85ecbea2-ef5a-44b2-9fd6-1116b3b59540",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:38:24.102011",
+          "duration_ms": 4357.730740537856,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_3703",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "a4c4064d-ea53-4c80-92a5-c9957bb61b4a",
+          "parent_span_id": "85ecbea2-ef5a-44b2-9fd6-1116b3b59540",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:38:24.152011",
+          "duration_ms": 4257.71866629929,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 88,
+            "db.wait_time_ms": 2965.8032287379715
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "25f28880-5d24-4e15-bb25-a150a885b6e4",
+      "spans": [
+        {
+          "span_id": "db2f2f9e-5b8e-4848-8ae5-127eb35a8a45",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:48:24.052011",
+          "duration_ms": 6618.187250533044,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "a25c685b-2df9-4cd7-9f7c-49a1a534f99a",
+          "parent_span_id": "25f28880-5d24-4e15-bb25-a150a885b6e4",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:48:24.102011",
+          "duration_ms": 4828.549246903538,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_2938",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "580cdf8a-8f5b-4e64-be62-2efee6f14a23",
+          "parent_span_id": "25f28880-5d24-4e15-bb25-a150a885b6e4",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:48:24.152011",
+          "duration_ms": 4482.8830457192225,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 91,
+            "db.wait_time_ms": 2190.2759911979824
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "875dafbb-3ef7-4780-996a-1cfa5b0888e0",
+      "spans": [
+        {
+          "span_id": "dd54d3ca-49a7-4cf6-8f2a-b3c9310b9fc5",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:18:24.052011",
+          "duration_ms": 6587.022512166252,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "6f42774c-4260-498c-87df-af007828c75d",
+          "parent_span_id": "875dafbb-3ef7-4780-996a-1cfa5b0888e0",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:18:24.102011",
+          "duration_ms": 4408.5747900351,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_4916",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "f16b747c-a48d-4708-9f0b-4c426ae131da",
+          "parent_span_id": "875dafbb-3ef7-4780-996a-1cfa5b0888e0",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:18:24.152011",
+          "duration_ms": 4055.771975994401,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 95,
+            "db.wait_time_ms": 2694.1134277225174
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "1654cf5c-69f6-439a-ac0b-ade533ca6df0",
+      "spans": [
+        {
+          "span_id": "edf86ccd-c9f6-414c-a076-671840a342f4",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:34:24.052011",
+          "duration_ms": 6316.876436507923,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "c083875c-caec-4257-881f-22db4f0d3ad4",
+          "parent_span_id": "1654cf5c-69f6-439a-ac0b-ade533ca6df0",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:34:24.102011",
+          "duration_ms": 4807.779939095828,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_9385",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "0e30697d-4163-41fd-aeb4-068361849e51",
+          "parent_span_id": "1654cf5c-69f6-439a-ac0b-ade533ca6df0",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:34:24.152011",
+          "duration_ms": 4104.024787028735,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 85,
+            "db.wait_time_ms": 2407.2025086332305
+          }
+        }
+      ]
+    },
+    {
+      "trace_id": "7df0608a-be14-48d7-a6aa-c0522542478a",
+      "spans": [
+        {
+          "span_id": "22269bdf-962e-4f07-a50c-7ecdcc038714",
+          "parent_span_id": null,
+          "operation_name": "POST /api/v1/payments/process",
+          "start_time": "2025-07-05T23:45:24.052011",
+          "duration_ms": 5444.580557898996,
+          "tags": {
+            "http.method": "POST",
+            "http.url": "/api/v1/payments/process",
+            "http.status_code": 500
+          }
+        },
+        {
+          "span_id": "0df6d88b-b492-4c44-b7f1-510d333f071f",
+          "parent_span_id": "7df0608a-be14-48d7-a6aa-c0522542478a",
+          "operation_name": "get_user_data",
+          "start_time": "2025-07-05T23:45:24.102011",
+          "duration_ms": 4230.116078106073,
+          "tags": {
+            "cache.hit": false,
+            "cache.key": "user_2452",
+            "db.fallback": true
+          }
+        },
+        {
+          "span_id": "19c553a8-764e-41ab-af8a-951561a30468",
+          "parent_span_id": "7df0608a-be14-48d7-a6aa-c0522542478a",
+          "operation_name": "database_query",
+          "start_time": "2025-07-05T23:45:24.152011",
+          "duration_ms": 4145.192422240185,
+          "tags": {
+            "db.statement": "SELECT * FROM users WHERE user_id = ?",
+            "db.connection_pool_size": 88,
+            "db.wait_time_ms": 2355.897577274921
+          }
+        }
+      ]
+    }
+  ]
+}

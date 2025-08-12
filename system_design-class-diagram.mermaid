@@ -1,0 +1,272 @@
+classDiagram
+class Incident {
+    +incident_id: str
+    +timestamp: datetime
+    +status: str
+    +severity: str
+    +symptoms: str[]
+    +region: str
+    +service_name: str
+    +confidence_score: float
+    +root_cause: str
+    +resolution: str
+    +resolution_time: datetime
+    +create_incident(symptoms: str[])
+    +update_status(status: str)
+    +add_symptom(symptom: str)
+    +set_resolution(resolution: str)
+}
+
+class IncidentSymptom {
+    +symptom_id: str
+    +incident_id: str
+    +symptom_type: str
+    +description: str
+    +metric_data: dict
+    +detected_at: datetime
+    +severity_score: float
+    +create_symptom(data: dict)
+    +update_severity(score: float)
+}
+
+class Playbook {
+    +playbook_id: str
+    +name: str
+    +version: str
+    +steps: PlaybookStep[]
+    +metadata: dict
+    +effectiveness_score: float
+    +last_updated: datetime
+    +execute()
+    +update_effectiveness(score: float)
+    +add_step(step: PlaybookStep)
+}
+
+class PlaybookStep {
+    +step_id: str
+    +description: str
+    +query: str
+    +expected_result: dict
+    +escalation_condition: str
+    +order: int
+    +step_type: str
+    +execute()
+    +validate_result(result: dict)
+}
+
+class PlaybookExecution {
+    +execution_id: str
+    +playbook_id: str
+    +incident_id: str
+    +started_at: datetime
+    +completed_at: datetime
+    +status: str
+    +step_results: StepResult[]
+    +start_execution()
+    +complete_step(step_id: str, result: dict)
+    +finish_execution()
+}
+
+class StepResult {
+    +step_id: str
+    +result_data: dict
+    +timestamp: datetime
+    +status: str
+}
+
+class AnalysisResult {
+    +analysis_id: str
+    +incident_id: str
+    +analysis_type: str
+    +findings: dict
+    +confidence_score: float
+    +evidence: str[]
+    +recommendation: str
+    +created_at: datetime
+    +create_analysis(data: dict)
+    +update_confidence(score: float)
+}
+
+class ReasoningTrail {
+    +trail_id: str
+    +incident_id: str
+    +steps: ReasoningStep[]
+    +created_at: datetime
+    +add_step(step: ReasoningStep)
+    +get_summary()
+    +export_timeline()
+}
+
+class ReasoningStep {
+    +step_id: str
+    +description: str
+    +action_taken: str
+    +result: dict
+    +decision_rationale: str
+    +timestamp: datetime
+    +evidence_links: str[]
+    +create_step(data: dict)
+}
+
+class GCPMetric {
+    +metric_name: str
+    +resource_type: str
+    +labels: dict
+    +value: float
+    +timestamp: datetime
+    +unit: str
+    +fetch_metric(query: str)
+    +aggregate_values(period: str)
+}
+
+class GCPLogEntry {
+    +log_id: str
+    +severity: str
+    +message: str
+    +json_payload: dict
+    +timestamp: datetime
+    +resource_type: str
+    +labels: dict
+    +search_logs(query: str)
+    +filter_by_severity(severity: str)
+}
+
+class User {
+    +user_id: str
+    +email: str
+    +role: str
+    +permissions: str[]
+    +last_login: datetime
+    +is_active: bool
+    +authenticate(token: str)
+    +has_permission(permission: str)
+    +update_role(role: str)
+}
+
+class ApprovalRequest {
+    +request_id: str
+    +incident_id: str
+    +requested_action: str
+    +requester_id: str
+    +approver_id: str
+    +status: str
+    +requested_at: datetime
+    +approved_at: datetime
+    +approval_notes: str
+    +create_request(action: str)
+    +approve(approver_id: str, notes: str)
+    +reject(approver_id: str, reason: str)
+}
+
+class IncidentAnalyzer {
+    +vector_search: VectorSearchEngine
+    +confidence_scorer: ConfidenceScorer
+    +trail_builder: ReasoningTrailBuilder
+    +analyze_incident(incident: Incident)
+    +correlate_with_history(symptoms: str[])
+    +generate_recommendations(analysis: AnalysisResult)
+    +update_confidence_score(analysis: AnalysisResult)
+}
+
+class PlaybookExecutor {
+    +playbook_repo: PlaybookRepository
+    +step_processor: StepProcessor
+    +gcp_client: GCPObservabilityClient
+    +execute_playbook(playbook_id: str, incident_id: str)
+    +process_step(step: PlaybookStep)
+    +handle_escalation(step: PlaybookStep, result: dict)
+    +update_effectiveness(execution: PlaybookExecution)
+}
+
+class VectorSearchEngine {
+    +db_client: AlloyDBClient
+    +embedding_model: EmbeddingModel
+    +create_embedding(text: str)
+    +search_similar_incidents(symptoms: str[], limit: int)
+    +calculate_similarity(incident1: Incident, incident2: Incident)
+    +update_embeddings(incidents: Incident[])
+}
+
+class ConfidenceScorer {
+    +ml_service: MLModelService
+    +historical_analyzer: HistoricalDataAnalyzer
+    +calculate_confidence(analysis: AnalysisResult)
+    +evaluate_evidence_quality(evidence: str[])
+    +get_historical_accuracy(playbook_id: str)
+    +update_model_weights(feedback: dict)
+}
+
+class GCPObservabilityClient {
+    +monitoring: GCPMonitoringClient
+    +logging: GCPLoggingClient
+    +error_reporting: GCPErrorReportingClient
+    +tracing: GCPTracingClient
+    +fetch_metrics(query: str)
+    +search_logs(query: str)
+    +get_error_reports(service: str)
+    +analyze_traces(trace_id: str)
+}
+
+class ChatInterface {
+    +websocket: WebSocketManager
+    +message_processor: MessageProcessor
+    +session_manager: UserSessionManager
+    +send_message(user_id: str, message: str)
+    +process_command(command: str)
+    +broadcast_update(incident_id: str, update: dict)
+    +handle_approval_request(request: ApprovalRequest)
+}
+
+class WebSocketManager {
+    +active_connections: dict
+    +connect(user_id: str, websocket: WebSocket)
+    +disconnect(user_id: str)
+    +send_personal_message(user_id: str, message: str)
+    +broadcast_message(message: str)
+    +handle_connection_error(user_id: str, error: Exception)
+}
+
+class IncidentRepository {
+    +db_client: AlloyDBClient
+    +create_incident(incident: Incident)
+    +get_incident(incident_id: str)
+    +update_incident(incident: Incident)
+    +search_incidents(criteria: dict)
+    +get_similar_incidents(symptoms: str[])
+}
+
+class PlaybookRepository {
+    +db_client: CloudSQLClient
+    +create_playbook(playbook: Playbook)
+    +get_playbook(playbook_id: str)
+    +update_playbook(playbook: Playbook)
+    +list_playbooks(filter_criteria: dict)
+    +get_effective_playbooks(incident_type: str)
+}
+
+Incident --> IncidentSymptom
+Incident --> AnalysisResult
+Incident --> ReasoningTrail
+Incident --> ApprovalRequest
+Playbook --> PlaybookStep
+Playbook --> PlaybookExecution
+PlaybookExecution --> StepResult
+ReasoningTrail --> ReasoningStep
+ApprovalRequest --> User
+AnalysisResult --> ReasoningTrail
+IncidentAnalyzer --> VectorSearchEngine
+IncidentAnalyzer --> ConfidenceScorer
+IncidentAnalyzer --> ReasoningTrailBuilder
+IncidentAnalyzer --> IncidentRepository
+PlaybookExecutor --> PlaybookRepository
+PlaybookExecutor --> GCPObservabilityClient
+PlaybookExecutor --> StepProcessor
+VectorSearchEngine --> AlloyDBClient
+VectorSearchEngine --> EmbeddingModel
+GCPObservabilityClient --> GCPMonitoringClient
+GCPObservabilityClient --> GCPLoggingClient
+GCPObservabilityClient --> GCPErrorReportingClient
+GCPObservabilityClient --> GCPTracingClient
+ChatInterface --> WebSocketManager
+ChatInterface --> MessageProcessor
+ChatInterface --> UserSessionManager

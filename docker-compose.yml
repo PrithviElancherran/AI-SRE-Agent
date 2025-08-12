@@ -1,0 +1,77 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/dockerfile
+    container_name: ai-sre-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/synthetic:/app/data/synthetic
+    environment:
+      - PYTHONUNBUFFERED=1
+      - DEMO_MODE=true
+      - USE_MOCK_GCP_SERVICES=true
+      # Use PostgreSQL for Docker to avoid UUID issues with SQLite
+      - DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/ai_sre_agent
+      - FRONTEND_URL=http://localhost:3000
+    networks:
+      - ai-sre-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/dockerfile
+    container_name: ai-sre-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+      - REACT_APP_WS_URL=ws://localhost:8000
+    networks:
+      - ai-sre-network
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    stdin_open: true
+    tty: true
+
+  db:
+    image: postgres:15-alpine
+    container_name: ai-sre-db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=ai_sre_agent
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - ai-sre-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  ai-sre-network:
+    driver: bridge
+
+volumes:
+  postgres_data:

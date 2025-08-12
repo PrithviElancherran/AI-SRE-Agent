@@ -1,0 +1,62 @@
+[
+  {
+    "user_id": "a1131a85-53a0-458e-9f38-5181f93be52f",
+    "email": "sre-engineer-1@company.com",
+    "role": "sre_lead",
+    "permissions": [
+      "read_incidents",
+      "execute_playbooks",
+      "approve_actions"
+    ],
+    "last_login": "2025-07-05T13:37:13.582933",
+    "is_active": true
+  },
+  {
+    "user_id": "4f1a2464-90c0-400b-b799-92950f1c4611",
+    "email": "sre-engineer-2@company.com",
+    "role": "senior_sre",
+    "permissions": [
+      "read_incidents",
+      "execute_playbooks",
+      "approve_actions"
+    ],
+    "last_login": "2025-07-05T07:37:13.582951",
+    "is_active": true
+  },
+  {
+    "user_id": "a97ef9de-1e89-4fdb-8e78-b24825e37152",
+    "email": "sre-engineer-3@company.com",
+    "role": "sre_lead",
+    "permissions": [
+      "read_incidents",
+      "execute_playbooks",
+      "approve_actions"
+    ],
+    "last_login": "2025-07-05T14:37:13.582960",
+    "is_active": true
+  },
+  {
+    "user_id": "3d46c6f8-0da0-471f-a565-69b6f07e4fee",
+    "email": "sre-engineer-4@company.com",
+    "role": "sre_lead",
+    "permissions": [
+      "read_incidents",
+      "execute_playbooks",
+      "approve_actions"
+    ],
+    "last_login": "2025-07-05T21:37:13.582967",
+    "is_active": true
+  },
+  {
+    "user_id": "b4b6ea8d-9a1f-4d3f-b8a0-10522c9dc6fb",
+    "email": "sre-engineer-5@company.com",
+    "role": "sre_lead",
+    "permissions": [
+      "read_incidents",
+      "execute_playbooks",
+      "approve_actions"
+    ],
+    "last_login": "2025-07-05T23:37:13.582973",
+    "is_active": true
+  }
+]

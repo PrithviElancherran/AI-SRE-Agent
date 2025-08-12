@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2024-11-20T10:00:00Z",
+  "services": {
+    "payment-api": {
+      "type": "gce_instance",
+      "instances": [
+        "payment-api-instance-01",
+        "payment-api-instance-02"
+      ],
+      "dependencies": [
+        "redis-cache-01",
+        "payment-db-prod"
+      ],
+      "region": "us-central1"
+    },
+    "ecommerce-api": {
+      "type": "gce_instance",
+      "instances": [
+        "ecommerce-api-instance-01",
+        "ecommerce-api-instance-02"
+      ],
+      "dependencies": [
+        "ecommerce-db-prod"
+      ],
+      "region": "us-central1"
+    }
+  },
+  "databases": {
+    "payment-db-prod": {
+      "type": "cloudsql_database",
+      "region": "us-central1",
+      "connections": [
+        "payment-api"
+      ]
+    },
+    "ecommerce-db-prod": {
+      "type": "cloudsql_database",
+      "region": "us-central1",
+      "connections": [
+        "ecommerce-api"
+      ]
+    }
+  },
+  "cache": {
+    "redis-cache-01": {
+      "type": "gce_instance",
+      "region": "us-central1",
+      "connections": [
+        "payment-api"
+      ]
+    }
+  }
+}

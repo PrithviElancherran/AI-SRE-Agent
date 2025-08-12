@@ -1,0 +1,392 @@
+[
+  {
+    "analysis_id": "ac5f8af8-fad9-46fa-b710-50bf3d10f06b",
+    "incident_id": "INC-253",
+    "analysis_type": "playbook",
+    "findings": {
+      "primary_cause": "Database connection pool exhaustion",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "database",
+        "tracing"
+      ]
+    },
+    "confidence_score": 0.7698971835570255,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Scale Redis cluster and warm cache",
+    "created_at": "2025-07-04T12:37:13.580563"
+  },
+  {
+    "analysis_id": "2cfd7d62-1c52-4fd3-b091-db8852f8bd16",
+    "incident_id": "INC-973",
+    "analysis_type": "correlation",
+    "findings": {
+      "primary_cause": "Network latency spike",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "database",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.7609749677786287,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Scale Redis cluster and warm cache",
+    "created_at": "2025-07-05T07:37:13.580579"
+  },
+  {
+    "analysis_id": "598e720b-474d-45b1-ac56-7481ec5a0868",
+    "incident_id": "INC-803",
+    "analysis_type": "correlation",
+    "findings": {
+      "primary_cause": "Memory leak in service",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "redis",
+        "tracing"
+      ]
+    },
+    "confidence_score": 0.8537480467764684,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Deploy circuit breaker pattern",
+    "created_at": "2025-07-05T04:37:13.580595"
+  },
+  {
+    "analysis_id": "bc2b3074-1566-4661-965b-3c324bb1afaa",
+    "incident_id": "INC-738",
+    "analysis_type": "ml_prediction",
+    "findings": {
+      "primary_cause": "Database connection pool exhaustion",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "database",
+        "monitoring"
+      ]
+    },
+    "confidence_score": 0.8423738404277316,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Deploy circuit breaker pattern",
+    "created_at": "2025-07-05T20:37:13.580609"
+  },
+  {
+    "analysis_id": "f920533d-4466-4c61-9eb7-8a53a9a099a3",
+    "incident_id": "INC-952",
+    "analysis_type": "ml_prediction",
+    "findings": {
+      "primary_cause": "Cache performance degradation",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "redis",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.9381943801506919,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Increase connection pool size",
+    "created_at": "2025-07-04T12:37:13.580622"
+  },
+  {
+    "analysis_id": "030d2478-423c-4bc6-8dd9-c3bfb1193367",
+    "incident_id": "INC-179",
+    "analysis_type": "correlation",
+    "findings": {
+      "primary_cause": "Cache performance degradation",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "database",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.9060523116752708,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Optimize slow database queries",
+    "created_at": "2025-07-05T14:37:13.580637"
+  },
+  {
+    "analysis_id": "0cc7dfa9-3b5c-477b-aacb-c0dfcceea37d",
+    "incident_id": "INC-489",
+    "analysis_type": "ml_prediction",
+    "findings": {
+      "primary_cause": "Cache performance degradation",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "redis",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.8737538592242813,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Increase connection pool size",
+    "created_at": "2025-07-05T14:37:13.580651"
+  },
+  {
+    "analysis_id": "069fc2f1-fa2d-4727-9bbf-e9c4ae52efad",
+    "incident_id": "INC-700",
+    "analysis_type": "correlation",
+    "findings": {
+      "primary_cause": "Cache performance degradation",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "loadbalancer",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.924146920415425,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Optimize slow database queries",
+    "created_at": "2025-07-04T23:37:13.580664"
+  },
+  {
+    "analysis_id": "c56bd813-5d46-42dc-b2f9-11b4d47a3dc0",
+    "incident_id": "INC-268",
+    "analysis_type": "ml_prediction",
+    "findings": {
+      "primary_cause": "Cache performance degradation",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "database",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.9290054881218643,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Scale Redis cluster and warm cache",
+    "created_at": "2025-07-04T16:37:13.580679"
+  },
+  {
+    "analysis_id": "4530e818-8100-4948-83c2-6e8a07b644b3",
+    "incident_id": "INC-877",
+    "analysis_type": "correlation",
+    "findings": {
+      "primary_cause": "Memory leak in service",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "api-gateway",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.7700785474011183,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Increase connection pool size",
+    "created_at": "2025-07-04T14:37:13.580693"
+  },
+  {
+    "analysis_id": "0d62ba5e-d331-4cc3-bd75-65fabf98d89b",
+    "incident_id": "INC-247",
+    "analysis_type": "ml_prediction",
+    "findings": {
+      "primary_cause": "Network latency spike",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "database",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.8689275789235347,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Deploy circuit breaker pattern",
+    "created_at": "2025-07-04T13:37:13.580704"
+  },
+  {
+    "analysis_id": "7046fc3d-c54e-4b7f-8914-fbd5135cc6d6",
+    "incident_id": "INC-431",
+    "analysis_type": "playbook",
+    "findings": {
+      "primary_cause": "Cache performance degradation",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "redis",
+        "logging"
+      ]
+    },
+    "confidence_score": 0.8110244426494505,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Increase connection pool size",
+    "created_at": "2025-07-05T13:37:13.580717"
+  },
+  {
+    "analysis_id": "1c24efb3-67eb-4087-ba90-b84e92e744cb",
+    "incident_id": "INC-145",
+    "analysis_type": "correlation",
+    "findings": {
+      "primary_cause": "Database connection pool exhaustion",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "redis",
+        "tracing"
+      ]
+    },
+    "confidence_score": 0.882100014715881,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Scale Redis cluster and warm cache",
+    "created_at": "2025-07-04T18:37:13.580733"
+  },
+  {
+    "analysis_id": "c3897e0b-eab0-40d5-80bd-48add9216900",
+    "incident_id": "INC-299",
+    "analysis_type": "correlation",
+    "findings": {
+      "primary_cause": "Cache performance degradation",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "api-gateway",
+        "monitoring"
+      ]
+    },
+    "confidence_score": 0.8199048721842226,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Optimize slow database queries",
+    "created_at": "2025-07-05T19:37:13.580744"
+  },
+  {
+    "analysis_id": "0db6b913-4091-4289-9b18-3526ff813a2b",
+    "incident_id": "INC-333",
+    "analysis_type": "correlation",
+    "findings": {
+      "primary_cause": "Cache performance degradation",
+      "contributing_factors": [
+        "Recent code deployment",
+        "Increased traffic load",
+        "Infrastructure scaling event"
+      ],
+      "affected_components": [
+        "database",
+        "monitoring"
+      ]
+    },
+    "confidence_score": 0.7507033500105706,
+    "evidence": [
+      "GCP Monitoring dashboard showing metric anomalies",
+      "Log entries confirming error patterns",
+      "Distributed tracing showing slow spans",
+      "Historical incident correlation with 89% similarity"
+    ],
+    "recommendation": "Optimize slow database queries",
+    "created_at": "2025-07-04T23:37:13.580758"
+  }
+]

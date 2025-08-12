@@ -1,0 +1,254 @@
+sequenceDiagram
+    participant UI as ChatInterface
+    participant IA as IncidentAnalyzer
+    participant VSE as VectorSearchEngine
+    participant IR as IncidentRepository
+    participant GCP as GCPObservabilityClient
+    participant CS as ConfidenceScorer
+    participant RTB as ReasoningTrailBuilder
+    participant AR as ApprovalRequest
+    participant PE as PlaybookExecutor
+    participant PR as PlaybookRepository
+    participant SP as StepProcessor
+    participant WS as WebSocketManager
+    
+    Note over UI, WS: Scenario 1: Past Incident Correlation & Diagnosis
+    Note over UI, WS: Payment API Latency Spike Detection
+    
+    UI->>IA: analyze_incident(incident_symptoms)
+    activate IA
+    
+    IA->>RTB: create_trail(incident_id)
+    activate RTB
+    RTB-->>IA: reasoning_trail_id
+    deactivate RTB
+    
+    IA->>VSE: search_similar_incidents(symptoms)
+    activate VSE
+    VSE->>VSE: create_embedding(symptoms_text)
+    VSE->>IR: query_by_vector(embedding, limit=10)
+    activate IR
+    IR-->>VSE: similar_incidents[]
+    deactivate IR
+    VSE-->>IA: correlated_incidents[]
+    deactivate VSE
+    
+    IA->>RTB: add_step("Historical Analysis", correlated_incidents)
+    activate RTB
+    RTB-->>IA: step_added
+    deactivate RTB
+    
+    IA->>GCP: fetch_metrics("redis_cache_hit_rate")
+    activate GCP
+    GCP->>GCP: query_monitoring_api()
+    GCP-->>IA: metric_data
+    deactivate GCP
+    
+    IA->>RTB: add_step("Verification", metric_data)
+    activate RTB
+    RTB-->>IA: step_added
+    deactivate RTB
+    
+    IA->>CS: calculate_confidence(analysis_data)
+    activate CS
+    CS->>CS: evaluate_evidence_quality()
+    CS->>CS: get_historical_accuracy()
+    CS-->>IA: confidence_score
+    deactivate CS
+    
+    IA->>RTB: add_step("Confidence Calculation", confidence_score)
+    activate RTB
+    RTB-->>IA: step_added
+    deactivate RTB
+    
+    IA->>AR: create_request("Scale Redis nodes")
+    activate AR
+    AR-->>IA: approval_request_id
+    deactivate AR
+    
+    IA->>UI: analysis_complete(results, confidence_score)
+    deactivate IA
+    
+    UI->>WS: broadcast_update(incident_id, analysis_results)
+    activate WS
+    WS->>WS: send_to_all_connections()
+    deactivate WS
+    
+    Note over UI, WS: Human approval workflow
+    UI->>AR: approve_action(request_id, approver_id)
+    activate AR
+    AR->>AR: update_status("approved")
+    AR->>UI: approval_confirmed
+    deactivate AR
+    
+    Note over UI, WS: Scenario 2: Playbook-Driven Debugging
+    Note over UI, WS: Database Connection Pool Exhaustion
+    
+    UI->>PE: execute_playbook("DB-TIMEOUT-001", incident_id)
+    activate PE
+    
+    PE->>PR: get_playbook("DB-TIMEOUT-001")
+    activate PR
+    PR-->>PE: playbook_definition
+    deactivate PR
+    
+    PE->>PE: create_execution(playbook_id, incident_id)
+    
+    PE->>RTB: create_trail(incident_id)
+    activate RTB
+    RTB-->>PE: reasoning_trail_id
+    deactivate RTB
+    
+    Note over PE, SP: Step 1: Check database connection pool
+    PE->>SP: process_step(step_1)
+    activate SP
+    SP->>GCP: fetch_metrics("cloudsql_connection_count")
+    activate GCP
+    GCP->>GCP: query_monitoring_api()
+    GCP-->>SP: connection_metrics
+    deactivate GCP
+    
+    SP->>SP: evaluate_threshold(metrics, "< 80%")
+    SP-->>PE: step_result("FAILED", "95% utilization")
+    deactivate SP
+    
+    PE->>RTB: add_step("Step 1: Connection Pool Check", step_result)
+    activate RTB
+    RTB-->>PE: step_logged
+    deactivate RTB
+    
+    PE->>UI: step_update("Connection pool at 95%")
+    UI->>WS: broadcast_update(incident_id, step_update)
+    activate WS
+    WS->>WS: send_to_all_connections()
+    deactivate WS
+    
+    Note over PE, SP: Step 2: Analyze connection timeout errors
+    PE->>SP: process_step(step_2)
+    activate SP
+    SP->>GCP: search_logs("connection_timeout OR connection_refused")
+    activate GCP
+    GCP->>GCP: query_logging_api()
+    GCP-->>SP: log_entries[]
+    deactivate GCP
+    
+    SP->>SP: analyze_error_patterns(log_entries)
+    SP-->>PE: step_result("CRITICAL", "15 timeouts in 30min")
+    deactivate SP
+    
+    PE->>RTB: add_step("Step 2: Log Analysis", step_result)
+    activate RTB
+    RTB-->>PE: step_logged
+    deactivate RTB
+    
+    PE->>UI: step_update("Found 15 timeout errors")
+    UI->>WS: broadcast_update(incident_id, step_update)
+    activate WS
+    WS->>WS: send_to_all_connections()
+    deactivate WS
+    
+    Note over PE, SP: Step 3: Check for long-running queries
+    PE->>SP: process_step(step_3)
+    activate SP
+    SP->>GCP: fetch_metrics("cloudsql_query_execution_time")
+    activate GCP
+    GCP->>GCP: query_monitoring_api()
+    GCP-->>SP: query_metrics
+    deactivate GCP
+    
+    SP->>GCP: get_slow_queries()
+    activate GCP
+    GCP->>GCP: query_performance_insights()
+    GCP-->>SP: slow_queries[]
+    deactivate GCP
+    
+    SP->>SP: identify_bottlenecks(query_metrics, slow_queries)
+    SP-->>PE: step_result("CRITICAL", "12.3s bulk update query")
+    deactivate SP
+    
+    PE->>RTB: add_step("Step 3: Query Analysis", step_result)
+    activate RTB
+    RTB-->>PE: step_logged
+    deactivate RTB
+    
+    PE->>CS: calculate_confidence(playbook_results)
+    activate CS
+    CS->>CS: evaluate_step_outcomes()
+    CS->>CS: get_playbook_effectiveness("DB-TIMEOUT-001")
+    CS-->>PE: confidence_score
+    deactivate CS
+    
+    PE->>RTB: add_step("Root Cause Analysis", confidence_score)
+    activate RTB
+    RTB-->>PE: step_logged
+    deactivate RTB
+    
+    PE->>AR: create_request("Kill slow query + optimize")
+    activate AR
+    AR-->>PE: approval_request_id
+    deactivate AR
+    
+    PE->>UI: playbook_complete(root_cause, recommendations)
+    deactivate PE
+    
+    UI->>WS: broadcast_update(incident_id, final_results)
+    activate WS
+    WS->>WS: send_to_all_connections()
+    deactivate WS
+    
+    Note over UI, WS: Real-time WebSocket Updates Throughout Process
+    
+    loop Every Analysis Step
+        IA->>UI: progress_update(step_name, status)
+        UI->>WS: broadcast_update(incident_id, progress)
+        WS->>WS: send_to_all_connections()
+    end
+    
+    loop Every Playbook Step
+        PE->>UI: step_progress(step_id, result)
+        UI->>WS: broadcast_update(incident_id, step_progress)
+        WS->>WS: send_to_all_connections()
+    end
+    
+    Note over UI, WS: Error Handling and Retry Logic
+    
+    alt GCP API Rate Limit
+        GCP->>GCP: handle_rate_limit_error()
+        GCP->>GCP: exponential_backoff_retry()
+        GCP->>UI: retry_notification()
+    end
+    
+    alt Low Confidence Score
+        CS->>UI: low_confidence_warning(score)
+        UI->>AR: escalate_to_human()
+    end
+    
+    alt Playbook Step Failure
+        SP->>PE: step_failed(error_details)
+        PE->>UI: escalation_required()
+        UI->>AR: create_escalation_request()
+    end
+    
+    Note over UI, WS: Post-Analysis Workflow
+    
+    UI->>IA: finalize_analysis(incident_id)
+    activate IA
+    IA->>IR: update_incident(resolution_data)
+    activate IR
+    IR->>IR: store_resolution_outcome()
+    deactivate IR
+    
+    IA->>PE: update_playbook_effectiveness(execution_id)
+    activate PE
+    PE->>PR: update_effectiveness_score(playbook_id)
+    activate PR
+    PR->>PR: calculate_new_effectiveness()
+    deactivate PR
+    deactivate PE
+    
+    IA->>RTB: finalize_trail(trail_id)
+    activate RTB
+    RTB->>RTB: generate_summary()
+    RTB->>RTB: export_timeline()
+    deactivate RTB
+    deactivate IA
