@@ -1,13 +1,14 @@
 # 🧠 **AI SRE Agent**
 **Autonomous Incident Response and Root Cause Analysis using Generative AI**  
 
+I built an AI-powered Site Reliability Engineering (SRE) assistant that detects, analyzes, and resolves production incidents automatically — turning hours of debugging into minutes.
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 ![Made with 💙 by Prithvi Elancherran](https://img.shields.io/badge/Made%20with%20💙%20by-Prithvi%20Elancherran-blue?style=for-the-badge)
 
 ---
@@ -16,7 +17,7 @@
 
 When production goes down at scale, chaos usually follows — pagers go off, multiple engineers join emergency calls, dashboards flood with alerts, and people start guessing.
 
-I wanted to change that.
+> I wanted to change that.
 
 **AI SRE Agent** is an **autonomous incident response system** I built that uses **Large Language Models (LLMs)**, **observability data**, and **historical incident intelligence** to perform **automated root cause analysis**, **playbook execution**, and **confidence-based recommendations**.
 
@@ -86,10 +87,11 @@ I built an agent that:
 |-------|---------------|
 | **Frontend** | React 18, TypeScript, Vite, Tailwind CSS |
 | **Backend** | FastAPI, Python 3.11, SQLAlchemy, Pydantic |
-| **AI/ML** | Sentence Transformers, Vector Similarity Search |
-| **Infra** | Docker, Kubernetes, Terraform, Redis, GCP APIs |
+| **AI/ML** | LangChain (Agent Logic), Sentence Transformers (Embeddings), FAISS (Vector Search) |
+| **Infra & DevOps** | Docker, Kubernetes (GKE), Terraform, Redis (Caching), GitHub Actions (CI/CD), GCP APIs |
 | **Database** | SQLite (demo) / AlloyDB (production) |
-| **Observability** | GCP Monitoring, Logging, Tracing, Error Reporting |
+| **Observability & Integrations** | GCP Monitoring, Logging, Tracing, Error Reporting APIs |
+| **Security & Monitoring** | JWT Auth, OpenTelemetry, Prometheus Metrics |
 
 ---
 
