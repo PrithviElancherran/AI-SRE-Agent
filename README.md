@@ -15,14 +15,7 @@ I built an AI-powered Site Reliability Engineering (SRE) assistant that detects,
 
 ## 🎬 Demo Video
 
-<video controls width="820" poster="https://raw.githubusercontent.com/PrithviElancherran/AI-SRE-Agent/main/assets/thumbnail.png">
-  <source src="https://raw.githubusercontent.com/PrithviElancherran/AI-SRE-Agent/main/assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<p align="center">
-  🎥 <i>Watch the AI SRE Agent in action — autonomous incident detection and root cause analysis.</i>
-</p>
+[![Watch the demo](assets/thumbnail.png)](https://raw.githubusercontent.com/PrithviElancherran/AI-SRE-Agent/main/assets/demo.mp4)
 
 
 
