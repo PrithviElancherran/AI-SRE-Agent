@@ -17,7 +17,7 @@ I built an AI-powered Site Reliability Engineering (SRE) assistant that detects,
 
 https://github.com/PrithviElancherran/AI-SRE-Agent/blob/main/assets/demo.mp4?raw=true
 
-<video src="https://github.com/PrithviElancherran/AI-SRE-Agent/blob/main/assets/demo.mp4?raw=true" width="800" controls>
+<video src="https://github.com/PrithviElancherran/AI-SRE-Agent/blob/main/assets/demo.mp4?raw=true" width="800" controls poster="assets/thumbnail.png">
   Your browser does not support the video tag.
 </video>
 
