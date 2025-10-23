@@ -1,262 +1,295 @@
-# AI SRE Agent
+# 🧠 **AI SRE Agent**
+**Autonomous Incident Response and Root Cause Analysis using Generative AI**  
 
-**Date:** July 10, 2025  
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=chainlink&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+![Made with 💙 by Prithvi Elancherran](https://img.shields.io/badge/Made%20with%20💙%20by-Prithvi%20Elancherran-blue?style=for-the-badge)
 
-## Prerequisites
-- **Docker and Docker Compose** installed
-- **Python 3.11.13** installed
-- **Git** installed
+---
 
-## Clone and Setup Project
+## 📖 Overview
 
-```bash
-# Clone the repository
-git clone <YOUR_REPOSITORY_URL>
-cd 4.0-ai-sre-agent (Root directory)
-```
+When production goes down at scale, chaos usually follows — pagers go off, multiple engineers join emergency calls, dashboards flood with alerts, and people start guessing.
 
-### Docker Setup to Run the Project:
-```bash
-Start the application:
-./docker-up.sh
-```
+I wanted to change that.
 
-This single command will:
-- Build both backend and frontend Docker images
-- Start both services in the background
-- Wait for them to be healthy
-- Show you the URLs when ready
+**AI SRE Agent** is an **autonomous incident response system** I built that uses **Large Language Models (LLMs)**, **observability data**, and **historical incident intelligence** to perform **automated root cause analysis**, **playbook execution**, and **confidence-based recommendations**.
 
-Access the application:
-- `Frontend: http://localhost:3000`
-- `Backend API: http://localhost:8000`
-- `API Documentation: http://localhost:8000/docs`
+---
 
-View logs (optional, in a new terminal):
-```bash
-./docker-logs.sh
-```
+## ✈️ Inspiration
 
-Stop the application and cleanup:
-```bash
-./docker-down.sh
-```
+During my internship, I noticed how real-world incident response looked —  
+> Pagers beeping, engineers scrambling, long debugging sessions, and uncertainty.
 
-#### First Time Setup:
+That experience motivated me to build an agent that could act as an **SRE co-pilot** — capable of analyzing observability signals, replaying past playbooks, and recommending the best actions.
 
-If the scripts aren't executable, run this first:
-```bash
-chmod +x docker-*.sh
-```
+The result was **AI SRE Agent** — an intelligent assistant that already knows *where to look first* when something breaks.
 
-That's it! Just run ./docker-up.sh from the root directory and everything
-will be set up automatically.
+---
 
-# AI SRE Agent Demo
+## 💡 Problem & Solution
 
-AI SRE Agent is a demonstration of automated root cause analysis of production issues using AI, observability data, playbooks, and incident history.
+### 🚨 Problem
+Finding the root cause of a production issue can take hours:
+- Dozens of systems to check  
+- Logs and metrics spread across tools  
+- Repeated incidents with no centralized memory  
 
-## Features
+### ⚙️ My Solution
+I built an agent that:
+- Analyzes incidents autonomously using observability data  
+- Correlates current symptoms with historical patterns using vector similarity search  
+- Executes troubleshooting playbooks automatically  
+- Reports root causes and recommended actions with confidence scores  
 
-- **Automated Incident Analysis**: AI-powered correlation with historical incidents
-- **Playbook-Driven Debugging**: Systematic troubleshooting workflows
-- **Real-time Chat Interface**: Interactive debugging and analysis
-- **GCP Observability Integration**: Monitoring, logging, error reporting, and tracing
-- **Vector Similarity Search**: Intelligent incident correlation
-- **Confidence Scoring**: AI-driven confidence assessment
-- **Human-in-the-Loop**: Safety guardrails for automated actions
+---
 
-## Demo Scenarios
+## ⚙️ Key Features
 
-### Scenario 1: Past Incident Correlation & Diagnosis
-- **Trigger**: Payment API latency spike detection
-- **Process**: Historical incident search → Verification → Resolution recommendation
-- **Outcome**: Automated root cause analysis with confidence scoring
+| Category | Description |
+|-----------|--------------|
+| 🔍 **Incident Analysis** | AI-driven correlation with historical incidents |
+| ⚙️ **Playbook Execution** | Automated troubleshooting workflow engine |
+| 🧠 **Root Cause Detection** | Embedding-based similarity matching for diagnostics |
+| 💬 **AI Chat Interface** | Real-time assistant for incident analysis commands |
+| 📊 **Observability Integration** | Connects with GCP Monitoring, Logging, Error Reporting, and Tracing |
+| 📈 **Confidence Scoring** | Quantifies reliability of AI inferences |
+| 👩‍💻 **Human-in-the-Loop** | Allows engineers to approve high-impact actions |
 
-### Scenario 2: Playbook-Driven Debugging
-- **Trigger**: Database connection timeout troubleshooting
-- **Process**: Playbook selection → Step execution → Root cause identification
-- **Outcome**: Systematic debugging with human approval workflow
+---
 
-## Architecture
+## 🧪 Demo Scenarios
 
-- **Backend**: Python FastAPI with async/await support
-- **Frontend**: React TypeScript with real-time WebSocket communication
-- **Database**: SQLite for demo, AlloyDB for production
-- **Caching**: Redis for GCP API response caching
-- **Deployment**: Docker containers on Google Kubernetes Engine
+### 🎯 Scenario 1 — Payment API Latency Spike
+- **Trigger:** Payment API latency crosses threshold  
+- **Action:** The agent queries observability data → finds similar past incidents → surfaces root cause and recommendations  
+- **Outcome:** Root cause identified (load imbalance) with **75.5% confidence**  
+- **Recommendation:** Add request retries and rebalance load distribution  
 
-## Technology Stack
+### ⚙️ Scenario 2 — Database Connection Timeout
+- **Trigger:** Billing service database connections nearing capacity  
+- **Action:** Executes `database-timeout` playbook → analyzes metrics → detects connection pool saturation  
+- **Outcome:** Root cause confirmed (pool capacity exceeded) with **53% confidence**  
+- **Recommendation:** Scale connection pool or enable automatic retries  
 
-- **Backend**: FastAPI, SQLAlchemy, Pydantic, sentence-transformers
-- **Frontend**: React 18, TypeScript, Vite, Tailwind CSS
-- **Database**: SQLite (demo), AlloyDB (production)
-- **Caching**: Redis
-- **GCP Services**: Monitoring, Logging, Error Reporting, Tracing
-- **AI/ML**: Sentence transformers for vector embeddings
+---
 
-## Project Structure
+## 🧰 Tech Stack
+
+| Layer | Technologies |
+|-------|---------------|
+| **Frontend** | React 18, TypeScript, Vite, Tailwind CSS |
+| **Backend** | FastAPI, Python 3.11, SQLAlchemy, Pydantic |
+| **AI/ML** | Sentence Transformers, Vector Similarity Search |
+| **Infra** | Docker, Kubernetes, Terraform, Redis, GCP APIs |
+| **Database** | SQLite (demo) / AlloyDB (production) |
+| **Observability** | GCP Monitoring, Logging, Tracing, Error Reporting |
+
+---
+
+## 🏗️ System Architecture
 
 ```
-GenAI_CE_AI_SRE1/
-├── backend/               # FastAPI backend application
-│   ├── config/           # Configuration and settings
-│   ├── models/           # Pydantic models and database schemas
-│   ├── services/         # Business logic and AI services
-│   ├── api/              # FastAPI routes and endpoints
-│   ├── integrations/     # GCP observability integrations
-│   ├── utils/            # Utility functions and helpers
++-----------------------------+
+|        Frontend (React)     |
+|  - Chat Interface           |
+|  - Incident Dashboard       |
+|  - WebSocket Communication  |
++-------------+---------------+
+              |
+              | WebSocket / REST API
+              |
++-------------v---------------+
+|        Backend (FastAPI)    |
+|  - Incident Analysis Engine |
+|  - Playbook Executor        |
+|  - Confidence Scoring       |
+|  - GCP Integrations         |
++-------------+---------------+
+              |
+              v
++-----------------------------+
+| GCP Monitoring + Logging    |
+| Observability + Tracing     |
++-----------------------------+
+```
+
+---
+
+## 📁 Project Structure
+
+```
+ai-sre-agent/
+├── backend/
+│   ├── api/              # API endpoints
+│   ├── models/           # Schemas and data models
+│   ├── services/         # Core AI and playbook logic
+│   ├── integrations/     # GCP observability connectors
+│   ├── utils/            # Helper functions
 │   └── tests/            # Unit and integration tests
-├── frontend/             # React TypeScript frontend
-│   └── src/
-│       ├── components/   # React components
-│       ├── services/     # API and WebSocket services
-│       ├── types/        # TypeScript type definitions
-│       └── hooks/        # Custom React hooks
-├── data/                 # Synthetic data for demo
-│   └── synthetic/        # Generated demo data
-├── docs/                 # Documentation
-├── infrastructure/       # Deployment configurations
-│   ├── terraform/        # Infrastructure as Code
-│   ├── kubernetes/       # Kubernetes manifests
-│   └── docker/           # Docker configurations
+├── frontend/
+│   ├── components/       # UI components
+│   ├── services/         # API + WebSocket services
+│   ├── hooks/            # Custom React hooks
+│   └── types/            # TypeScript definitions
+├── infrastructure/       # Docker, Terraform, Kubernetes
+├── data/                 # Synthetic demo data
 └── scripts/              # Setup and deployment scripts
 ```
 
-## Quick Start
+---
+
+## ⚡ Quick Start
 
 ### Prerequisites
-
-- Python 3.11+
-- Node.js 18+
-- Docker (optional)
+- Python 3.11+  
+- Node.js 18+  
+- Docker & Docker Compose  
 - Redis (for caching)
 
-### Backend Setup
-
+### 1️⃣ Clone & Setup
 ```bash
-cd backend
-pip install -r requirements.txt
-python main.py
+git clone <YOUR_REPOSITORY_URL>
+cd ai-sre-agent
 ```
 
-### Frontend Setup
-
+### 2️⃣ Start with Docker
 ```bash
-cd frontend
-npm install
-npm run dev
+chmod +x docker-*.sh
+./docker-up.sh
 ```
 
-### Access the Application
+### 3️⃣ Access the App
+- **Frontend:** http://localhost:3000  
+- **Backend API:** http://localhost:8000  
+- **Docs:** http://localhost:8000/docs  
 
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8000
-- **API Documentation**: http://localhost:8000/docs
+---
 
-## Demo Usage
+## 🧠 How It Works
 
-1. **Open the Chat Interface**: Navigate to the frontend application
-2. **Trigger Scenario 1**: Type `@sre-bot: Payment API latency > 5s in US region`
-3. **Trigger Scenario 2**: Type `@sre-bot: Database connection timeout errors in ecommerce-api`
-4. **Observe Analysis**: Watch the AI agent analyze symptoms and correlate with historical data
-5. **Review Recommendations**: Examine the suggested actions and confidence scores
-6. **Approve Actions**: Use the human-in-the-loop approval workflow
+1. An incident occurs → e.g., “Payment API latency spike”  
+2. The AI SRE Agent retrieves logs, metrics, and traces  
+3. Generates vector embeddings for current signals  
+4. Searches historical incidents via similarity index  
+5. Assigns confidence scores to findings  
+6. Provides a clear root cause + recommended fix  
+7. Optionally executes playbooks upon engineer approval  
 
-## Configuration
+---
 
-Key configuration options in `backend/config/settings.py`:
+## 📈 Impact
 
-- `DEMO_MODE`: Enable demo mode with synthetic data
-- `SIMILARITY_THRESHOLD`: Incident correlation threshold
-- `CONFIDENCE_THRESHOLD`: Automated action confidence threshold
-- `GCP_PROJECT_ID`: Google Cloud Project ID
-- `DATABASE_URL`: Database connection string
+- ⏱️ Reduced **mean time to detect (MTTD)** and **mean time to resolve (MTTR)**  
+- ⚙️ Automated repetitive incident triage workflows  
+- 🧠 Reused knowledge from 100+ historical incidents  
+- 🚀 Brought observability data, AI, and human-in-the-loop together  
 
-## API Endpoints
+---
 
-- `POST /api/v1/incidents/analyze`: Trigger incident analysis
-- `GET /api/v1/incidents/{id}/timeline`: Get incident timeline
-- `GET /api/v1/playbooks`: List available playbooks
-- `POST /api/v1/playbooks/{id}/execute`: Execute playbook
-- `GET /api/v1/gcp/metrics`: Query GCP monitoring metrics
-- `WebSocket /ws/chat`: Real-time chat interface
+## 🔐 Security & Reliability
 
-## Development
+- JWT-based authentication  
+- Role-based access control  
+- Pydantic validation for API inputs  
+- CORS and rate limiting  
+- Structured JSON logging with Loguru  
+- OpenTelemetry tracing  
 
-### Running Tests
+---
+
+## 👨‍💻 What I Built
+
+- Designed and implemented **AI-driven backend** using FastAPI and sentence transformers  
+- Built **interactive frontend** in React for live incident chat and visualization  
+- Integrated **GCP Monitoring, Logging, and Tracing APIs**  
+- Implemented **confidence scoring system** for AI-generated diagnoses  
+- Deployed **Dockerized microservices** on Google Kubernetes Engine (GKE)  
+- Created **synthetic demo data** for local and cloud testing  
+
+---
+
+## 🖼️ Demo Snapshots
+
+| Incident Dashboard | AI Chat Interface | Root Cause Analysis |
+|--------------------|------------------|----------------------|
+| ![Dashboard](docs/screenshots/dashboard.png) | ![Chat](docs/screenshots/chat.png) | ![Root Cause](docs/screenshots/rootcause.png) |
+
+*(Replace paths with your uploaded screenshots)*
+
+---
+
+## 🔎 Example Commands
 
 ```bash
+@sre-bot analyze incident INC-2024-001
+@sre-bot execute playbook database-timeout
+@sre-bot status
+@sre-bot help
+```
+
+---
+
+## 🧩 API Highlights
+
+| Endpoint | Description |
+|-----------|--------------|
+| `POST /api/v1/incidents/analyze` | Run incident analysis |
+| `GET /api/v1/incidents/{id}/timeline` | Fetch incident timeline |
+| `POST /api/v1/playbooks/{id}/execute` | Execute troubleshooting playbook |
+| `GET /api/v1/gcp/metrics` | Query GCP metrics |
+| `WebSocket /ws/chat` | Real-time AI chat interface |
+
+---
+
+## 🧰 Development & Testing
+
+```bash
+# Run backend tests
 cd backend
 pytest tests/
-```
 
-### Code Quality
-
-```bash
+# Lint and format
 black backend/
 flake8 backend/
 mypy backend/
 ```
 
-### Frontend Development
+---
 
-```bash
-cd frontend
-npm run lint
-npm run type-check
-npm run test
-```
+## 📦 Deployment
 
-## Deployment
-
-### Docker Deployment
-
+### Docker Compose
 ```bash
 docker-compose up --build
 ```
 
-### Kubernetes Deployment
-
+### Kubernetes (GKE)
 ```bash
 kubectl apply -f infrastructure/kubernetes/
 ```
 
-### GCP Deployment
-
+### Terraform
 ```bash
-# Deploy to Google Kubernetes Engine
-gcloud container clusters create ai-sre-agent
-kubectl apply -f infrastructure/kubernetes/
+cd infrastructure/terraform
+terraform apply
 ```
 
-## Monitoring
+---
 
-- **Health Check**: `/health`
-- **Metrics**: Prometheus metrics on port 9090
-- **Logs**: Structured JSON logs with loguru
-- **Tracing**: OpenTelemetry integration
+## 🧭 Monitoring
 
-## Security
+- **Health Check:** `/health`  
+- **Metrics:** Prometheus metrics (port 9090)  
+- **Logs:** Structured JSON logs  
+- **Tracing:** OpenTelemetry integration  
 
-- **Authentication**: JWT-based authentication
-- **Authorization**: Role-based access control
-- **Rate Limiting**: API request rate limiting
-- **CORS**: Configurable CORS policies
-- **Input Validation**: Pydantic model validation
+---
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests and linting
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For questions and support, please contact the SRE team or create an issue in the repository.
+⭐ **AI SRE Agent — Designed & Built with 💙 by [Prithvi Elancherran](https://github.com/PrithviElancherran)**
