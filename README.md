@@ -15,7 +15,7 @@ I built an AI-powered Site Reliability Engineering (SRE) assistant that detects,
 
 ## 🎬 Demo Video
 
-https://github.com/PrithviElancherran/AI-SRE-Agent/blob/main/docs/demo.mp4?raw=true
+https://github.com/PrithviElancherran/AI-SRE-Agent/blob/main/assets/demo.mp4?raw=true
 
 
 ## 📖 Overview
