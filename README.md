@@ -19,6 +19,12 @@ I built an AI-powered Site Reliability Engineering (SRE) assistant that detects,
 
 
 
+https://github.com/user-attachments/assets/a441064b-6982-44dc-86fc-a60b111379d0
+
+
+
+
+
 ## 📖 Overview
 
 When production goes down at scale, chaos usually follows — pagers go off, multiple engineers join emergency calls, dashboards flood with alerts, and people start guessing.
